@@ -4,7 +4,7 @@ Cucumber's a big org, with a lot of different settings in GitHub.
 
 In an attempt to keep those settings consistent between repos, and with the added bonus of version controlling changes, we're starting to manage those settings via declarative Infrastructure as Code scripts, in this repo.
 
-We use [Pulumi]'s [GitHub provider](https://www.pulumi.com/registry/packages/github/) to decleare and apply repo settings.
+We use [Pulumi]'s [GitHub provider](https://www.pulumi.com/registry/packages/github/) to declare and apply repo settings.
 
 To run the scripts, you need to first install [Pulumi]'s [CLI], then, in a clone of this repo:
 
