@@ -1,5 +1,4 @@
 import * as github from "@pulumi/github";
-import { getTeam } from "@pulumi/github";
 import { getTeamId } from "./getTeamId";
 
 const repoName = "awesome-cucumber";
@@ -33,6 +32,11 @@ setTeam({
 });
 setTeam({
   repoName: "create-meta",
+  teamName: "release",
+  permission: "maintain",
+});
+setTeam({
+  repoName: "github-settings",
   teamName: "release",
   permission: "maintain",
 });

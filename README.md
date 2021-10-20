@@ -18,5 +18,6 @@ Now you're ready to apply the configuration in [index.ts](./index.ts), like this
 
 	pulumi up --yes
 
+
 [Pulumi]:https://www.pulumi.com/
 [CLI]:https://www.pulumi.com/docs/get-started/install/
