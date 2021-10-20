@@ -7,6 +7,7 @@
         "@octokit/core": "^3.5.1",
         "@octokit/rest": "^18.12.0",
         "@pulumi/github": "^4.6.0",
-        "@pulumi/pulumi": "^3.0.0"
+        "@pulumi/pulumi": "^3.0.0",
+        "ts-node": "^7.0.1"
     }
 }
