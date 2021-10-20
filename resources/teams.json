@@ -1,0 +1,84 @@
+{
+  "resources": [
+    {
+      "type": "github:index/team:Team",
+      "name": "aruba",
+      "id": "2445010"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "build",
+      "id": "4797681"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "committers",
+      "id": "46059"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "core",
+      "id": "2423254"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-android",
+      "id": "2814891"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-cpp",
+      "id": "2446646"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-eclipse",
+      "id": "4964254"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-js",
+      "id": "2445014"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-jvm",
+      "id": "2372435"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-ml",
+      "id": "2602947"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-ruby",
+      "id": "1970510"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "cucumber-ruby-tcl",
+      "id": "1979610"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "docs",
+      "id": "2082625"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "gherkin",
+      "id": "1977884"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "go",
+      "id": "4815680"
+    },
+    {
+      "type": "github:index/team:Team",
+      "name": "release",
+      "id": "5227827"
+    }
+  ]
+}

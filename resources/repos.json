@@ -1,0 +1,154 @@
+{
+  "resources": [
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-ruby",
+      "id": "cucumber-ruby"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-rails",
+      "id": "cucumber-rails"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/aruba",
+      "id": "aruba"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-tmbundle",
+      "id": "cucumber-tmbundle"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-cpp",
+      "id": "cucumber-cpp"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-js",
+      "id": "cucumber-js"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-jvm",
+      "id": "cucumber-jvm"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-lua",
+      "id": "cucumber-lua"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-eclipse",
+      "id": "cucumber-eclipse"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/multi_test",
+      "id": "multi_test"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-ruby-core",
+      "id": "cucumber-ruby-core"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-java-skeleton",
+      "id": "cucumber-java-skeleton"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/website",
+      "id": "website"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-ruby-tcl",
+      "id": "cucumber-ruby-tcl"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-ruby",
+      "id": "gherkin-ruby"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-java",
+      "id": "gherkin-java"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-javascript",
+      "id": "gherkin-javascript"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-go",
+      "id": "gherkin-go"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-dotnet",
+      "id": "gherkin-dotnet"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/godog",
+      "id": "godog"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/common",
+      "id": "common"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-ruby-wire",
+      "id": "cucumber-ruby-wire"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-python",
+      "id": "gherkin-python"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-objective-c",
+      "id": "gherkin-objective-c"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-tcl-wire",
+      "id": "cucumber-tcl-wire"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/gherkin-perl",
+      "id": "gherkin-perl"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/tag-expressions-java",
+      "id": "tag-expressions-java"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/tag-expressions-javascript",
+      "id": "tag-expressions-javascript"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-expressions-java",
+      "id": "cucumber-expressions-java"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/cucumber-expressions-javascript",
+      "id": "cucumber-expressions-javascript"
+    }
+  ]
+}

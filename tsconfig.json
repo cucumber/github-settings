@@ -13,6 +13,6 @@
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "index.ts", "./getTeamId.ts"
+        "index.ts", "./getTeamId.ts", "./repos.ts", "./getRepos.ts"
     ]
 }
