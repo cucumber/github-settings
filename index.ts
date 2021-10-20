@@ -7,6 +7,7 @@ type Permission = "pull" | "triage" | "push" | "maintain" | "admin";
 
 require("./repos.ts");
 require("./teams.ts");
+require("./teamRepositories.ts");
 
 export const output = {
   repoCount: pulumi.output(github.getOrganization({ name: "cucumber" }))

@@ -10,7 +10,7 @@ export async function getTeams(): Promise<any> {
   return response.data;
 }
 
-if (process.argv.length > 1) {
+if (process.argv.length > 1 && process.argv[1] === __filename) {
   getTeams()
     .then((teams) => {
       const result = JSON.stringify({
