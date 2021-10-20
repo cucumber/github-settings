@@ -1,0 +1,3 @@
+name: github-settings
+runtime: nodejs
+description: Cucumber GitHub settings
