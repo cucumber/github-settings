@@ -12,7 +12,6 @@
         "noImplicitReturns": true,
         "forceConsistentCasingInFileNames": true
     },
-    "files": [
-        "index.ts", "./getTeamId.ts", "./repos.ts", "./getRepos.ts"
-    ]
+    "include": ["./index.ts", "src/**/*.ts"],
+    "exclude": ["node_modules"]
 }
