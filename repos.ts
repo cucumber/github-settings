@@ -141,7 +141,7 @@ const cucumber_cucumber_js = new github.Repository(
         branch: "gh-pages",
       },
     },
-    topics: ["javascript", "cucumber"],
+    topics: ["javascript", "cucumber", "typescript"],
     vulnerabilityAlerts: true,
   },
   {
