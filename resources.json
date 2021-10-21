@@ -1,9 +1,0 @@
-{
-	"resources": [
-		{
-			"type": "github:index/team:Team",
-			"name": "core",
-			"id": "2423254"
-		}
-	]
-}
