@@ -4,10 +4,13 @@ export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const org = process.env.GITHUB_OWNER || "unknown";
 
 export async function getRepositories(): Promise<any> {
-  const response = await octokit.request("GET /orgs/{org}/repos", {
-    org,
-  });
-  return response.data;
+  return await octokit.paginate(
+    "GET /orgs/{org}/repos",
+    {
+      org,
+    },
+    (response) => response.data
+  );
 }
 
 if (process.argv.length > 1) {
