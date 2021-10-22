@@ -211,6 +211,132 @@ const aruba_aruba_getting_started = new github.TeamRepository("aruba:aruba-getti
 }, {
     protect: true,
 });
+const aruba_commitbit = new github.TeamRepository("aruba:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_jvm_scala = new github.TeamRepository("aruba:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_ml = new github.TeamRepository("aruba:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_tag_expressions_go = new github.TeamRepository("aruba:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_eclipse_update_site = new github.TeamRepository("aruba:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("aruba:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_ruby_meta = new github.TeamRepository("aruba:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_todo_react_typescript_subsecond = new github.TeamRepository("aruba:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_build = new github.TeamRepository("aruba:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba__github = new github.TeamRepository("aruba:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_cucumber_expressions = new github.TeamRepository("aruba:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_tag_expressions = new github.TeamRepository("aruba:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_suggest = new github.TeamRepository("aruba:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_language_service = new github.TeamRepository("aruba:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_language_server = new github.TeamRepository("aruba:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_monaco = new github.TeamRepository("aruba:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_awesome_cucumber = new github.TeamRepository("aruba:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
+const aruba_github_settings = new github.TeamRepository("aruba:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
 const build_cucumber_ruby = new github.TeamRepository("build:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -417,6 +543,188 @@ const build_docs = new github.TeamRepository("build:docs", {
 const build_aruba_getting_started = new github.TeamRepository("build:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_commitbit = new github.TeamRepository("build:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_jvm_scala = new github.TeamRepository("build:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_ml = new github.TeamRepository("build:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_tag_expressions_go = new github.TeamRepository("build:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_eclipse_update_site = new github.TeamRepository("build:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("build:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_ruby_meta = new github.TeamRepository("build:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_todo_react_typescript_subsecond = new github.TeamRepository("build:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_build = new github.TeamRepository("build:build", {
+    permission: "admin",
+    repository: "build",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build__github = new github.TeamRepository("build:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_changelog = new github.TeamRepository("build:changelog", {
+    permission: "admin",
+    repository: "changelog",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_changelog = new github.TeamRepository("build:action-changelog", {
+    permission: "push",
+    repository: "action-changelog",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_create_release_pr = new github.TeamRepository("build:action-create-release-pr", {
+    permission: "push",
+    repository: "action-create-release-pr",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_publish_rubygem = new github.TeamRepository("build:action-publish-rubygem", {
+    permission: "push",
+    repository: "action-publish-rubygem",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_get_versions = new github.TeamRepository("build:action-get-versions", {
+    permission: "push",
+    repository: "action-get-versions",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_create_github_release = new github.TeamRepository("build:action-create-github-release", {
+    permission: "push",
+    repository: "action-create-github-release",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_cucumber_expressions = new github.TeamRepository("build:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_publish_npm = new github.TeamRepository("build:action-publish-npm", {
+    permission: "push",
+    repository: "action-publish-npm",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_action_publish_mvn = new github.TeamRepository("build:action-publish-mvn", {
+    permission: "push",
+    repository: "action-publish-mvn",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_tag_expressions = new github.TeamRepository("build:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_suggest = new github.TeamRepository("build:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_language_service = new github.TeamRepository("build:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_language_server = new github.TeamRepository("build:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_monaco = new github.TeamRepository("build:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_awesome_cucumber = new github.TeamRepository("build:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+const build_github_settings = new github.TeamRepository("build:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "4797681",
 }, {
     protect: true,
@@ -631,6 +939,111 @@ const committers_commitbit = new github.TeamRepository("committers:commitbit", {
 }, {
     protect: true,
 });
+const committers_cucumber_jvm_scala = new github.TeamRepository("committers:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_cucumber_ml = new github.TeamRepository("committers:cucumber.ml", {
+    permission: "push",
+    repository: "cucumber.ml",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_tag_expressions_go = new github.TeamRepository("committers:tag-expressions-go", {
+    permission: "push",
+    repository: "tag-expressions-go",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_cucumber_eclipse_update_site = new github.TeamRepository("committers:cucumber-eclipse-update-site", {
+    permission: "push",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("committers:cucumber-eclipse-update-site-snapshot", {
+    permission: "push",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_cucumber_ruby_meta = new github.TeamRepository("committers:cucumber-ruby-meta", {
+    permission: "pull",
+    repository: "cucumber-ruby-meta",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_build = new github.TeamRepository("committers:build", {
+    permission: "pull",
+    repository: "build",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers__github = new github.TeamRepository("committers:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_cucumber_expressions = new github.TeamRepository("committers:cucumber-expressions", {
+    permission: "push",
+    repository: "cucumber-expressions",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_tag_expressions = new github.TeamRepository("committers:tag-expressions", {
+    permission: "push",
+    repository: "tag-expressions",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_suggest = new github.TeamRepository("committers:suggest", {
+    permission: "push",
+    repository: "suggest",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_language_service = new github.TeamRepository("committers:language-service", {
+    permission: "push",
+    repository: "language-service",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_language_server = new github.TeamRepository("committers:language-server", {
+    permission: "push",
+    repository: "language-server",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_monaco = new github.TeamRepository("committers:monaco", {
+    permission: "push",
+    repository: "monaco",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_github_settings = new github.TeamRepository("committers:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "46059",
+}, {
+    protect: true,
+});
 const core_cucumber_ruby = new github.TeamRepository("core:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -837,6 +1250,132 @@ const core_docs = new github.TeamRepository("core:docs", {
 const core_aruba_getting_started = new github.TeamRepository("core:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_commitbit = new github.TeamRepository("core:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_jvm_scala = new github.TeamRepository("core:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_ml = new github.TeamRepository("core:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_tag_expressions_go = new github.TeamRepository("core:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_eclipse_update_site = new github.TeamRepository("core:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("core:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_ruby_meta = new github.TeamRepository("core:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_todo_react_typescript_subsecond = new github.TeamRepository("core:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_build = new github.TeamRepository("core:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core__github = new github.TeamRepository("core:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_cucumber_expressions = new github.TeamRepository("core:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_tag_expressions = new github.TeamRepository("core:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_suggest = new github.TeamRepository("core:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_language_service = new github.TeamRepository("core:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_language_server = new github.TeamRepository("core:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_monaco = new github.TeamRepository("core:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_awesome_cucumber = new github.TeamRepository("core:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_github_settings = new github.TeamRepository("core:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "2423254",
 }, {
     protect: true,
@@ -1051,6 +1590,139 @@ const cucumber_android_aruba_getting_started = new github.TeamRepository("cucumb
 }, {
     protect: true,
 });
+const cucumber_android_commitbit = new github.TeamRepository("cucumber-android:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_jvm_scala = new github.TeamRepository("cucumber-android:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_ml = new github.TeamRepository("cucumber-android:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_tag_expressions_go = new github.TeamRepository("cucumber-android:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_android = new github.TeamRepository("cucumber-android:cucumber-android", {
+    permission: "admin",
+    repository: "cucumber-android",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-android:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-android:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_ruby_meta = new github.TeamRepository("cucumber-android:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-android:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_build = new github.TeamRepository("cucumber-android:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android__github = new github.TeamRepository("cucumber-android:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_cucumber_expressions = new github.TeamRepository("cucumber-android:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_tag_expressions = new github.TeamRepository("cucumber-android:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_suggest = new github.TeamRepository("cucumber-android:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_language_service = new github.TeamRepository("cucumber-android:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_language_server = new github.TeamRepository("cucumber-android:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_monaco = new github.TeamRepository("cucumber-android:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_awesome_cucumber = new github.TeamRepository("cucumber-android:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
+const cucumber_android_github_settings = new github.TeamRepository("cucumber-android:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
 const cucumber_cpp_cucumber_ruby = new github.TeamRepository("cucumber-cpp:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -1257,6 +1929,132 @@ const cucumber_cpp_docs = new github.TeamRepository("cucumber-cpp:docs", {
 const cucumber_cpp_aruba_getting_started = new github.TeamRepository("cucumber-cpp:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_commitbit = new github.TeamRepository("cucumber-cpp:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_jvm_scala = new github.TeamRepository("cucumber-cpp:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_ml = new github.TeamRepository("cucumber-cpp:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_tag_expressions_go = new github.TeamRepository("cucumber-cpp:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-cpp:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-cpp:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_ruby_meta = new github.TeamRepository("cucumber-cpp:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-cpp:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_build = new github.TeamRepository("cucumber-cpp:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp__github = new github.TeamRepository("cucumber-cpp:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_cucumber_expressions = new github.TeamRepository("cucumber-cpp:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_tag_expressions = new github.TeamRepository("cucumber-cpp:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_suggest = new github.TeamRepository("cucumber-cpp:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_language_service = new github.TeamRepository("cucumber-cpp:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_language_server = new github.TeamRepository("cucumber-cpp:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_monaco = new github.TeamRepository("cucumber-cpp:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_awesome_cucumber = new github.TeamRepository("cucumber-cpp:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
+const cucumber_cpp_github_settings = new github.TeamRepository("cucumber-cpp:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "2446646",
 }, {
     protect: true,
@@ -1471,6 +2269,132 @@ const cucumber_eclipse_aruba_getting_started = new github.TeamRepository("cucumb
 }, {
     protect: true,
 });
+const cucumber_eclipse_commitbit = new github.TeamRepository("cucumber-eclipse:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_jvm_scala = new github.TeamRepository("cucumber-eclipse:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_ml = new github.TeamRepository("cucumber-eclipse:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_tag_expressions_go = new github.TeamRepository("cucumber-eclipse:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-eclipse:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-eclipse:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_ruby_meta = new github.TeamRepository("cucumber-eclipse:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-eclipse:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_build = new github.TeamRepository("cucumber-eclipse:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse__github = new github.TeamRepository("cucumber-eclipse:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_cucumber_expressions = new github.TeamRepository("cucumber-eclipse:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_tag_expressions = new github.TeamRepository("cucumber-eclipse:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_suggest = new github.TeamRepository("cucumber-eclipse:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_language_service = new github.TeamRepository("cucumber-eclipse:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_language_server = new github.TeamRepository("cucumber-eclipse:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_monaco = new github.TeamRepository("cucumber-eclipse:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_awesome_cucumber = new github.TeamRepository("cucumber-eclipse:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_github_settings = new github.TeamRepository("cucumber-eclipse:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
 const cucumber_js_cucumber_ruby = new github.TeamRepository("cucumber-js:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -1677,6 +2601,139 @@ const cucumber_js_docs = new github.TeamRepository("cucumber-js:docs", {
 const cucumber_js_aruba_getting_started = new github.TeamRepository("cucumber-js:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_commitbit = new github.TeamRepository("cucumber-js:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_jvm_scala = new github.TeamRepository("cucumber-js:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_ml = new github.TeamRepository("cucumber-js:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_tag_expressions_go = new github.TeamRepository("cucumber-js:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-js:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-js:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_ruby_meta = new github.TeamRepository("cucumber-js:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-js:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_build = new github.TeamRepository("cucumber-js:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_pretty_formatter = new github.TeamRepository("cucumber-js:cucumber-pretty-formatter", {
+    permission: "pull",
+    repository: "cucumber-pretty-formatter",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js__github = new github.TeamRepository("cucumber-js:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_cucumber_expressions = new github.TeamRepository("cucumber-js:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_tag_expressions = new github.TeamRepository("cucumber-js:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_suggest = new github.TeamRepository("cucumber-js:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_language_service = new github.TeamRepository("cucumber-js:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_language_server = new github.TeamRepository("cucumber-js:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_monaco = new github.TeamRepository("cucumber-js:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_awesome_cucumber = new github.TeamRepository("cucumber-js:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
+const cucumber_js_github_settings = new github.TeamRepository("cucumber-js:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "2445014",
 }, {
     protect: true,
@@ -1891,6 +2948,132 @@ const cucumber_jvm_aruba_getting_started = new github.TeamRepository("cucumber-j
 }, {
     protect: true,
 });
+const cucumber_jvm_commitbit = new github.TeamRepository("cucumber-jvm:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_jvm_scala = new github.TeamRepository("cucumber-jvm:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_ml = new github.TeamRepository("cucumber-jvm:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_tag_expressions_go = new github.TeamRepository("cucumber-jvm:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-jvm:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-jvm:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_ruby_meta = new github.TeamRepository("cucumber-jvm:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-jvm:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_build = new github.TeamRepository("cucumber-jvm:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm__github = new github.TeamRepository("cucumber-jvm:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_cucumber_expressions = new github.TeamRepository("cucumber-jvm:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_tag_expressions = new github.TeamRepository("cucumber-jvm:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_suggest = new github.TeamRepository("cucumber-jvm:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_language_service = new github.TeamRepository("cucumber-jvm:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_language_server = new github.TeamRepository("cucumber-jvm:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_monaco = new github.TeamRepository("cucumber-jvm:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_awesome_cucumber = new github.TeamRepository("cucumber-jvm:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
+const cucumber_jvm_github_settings = new github.TeamRepository("cucumber-jvm:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
 const cucumber_ml_cucumber_ruby = new github.TeamRepository("cucumber-ml:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2097,6 +3280,132 @@ const cucumber_ml_docs = new github.TeamRepository("cucumber-ml:docs", {
 const cucumber_ml_aruba_getting_started = new github.TeamRepository("cucumber-ml:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_commitbit = new github.TeamRepository("cucumber-ml:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_jvm_scala = new github.TeamRepository("cucumber-ml:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_ml = new github.TeamRepository("cucumber-ml:cucumber.ml", {
+    permission: "admin",
+    repository: "cucumber.ml",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_tag_expressions_go = new github.TeamRepository("cucumber-ml:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-ml:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-ml:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_ruby_meta = new github.TeamRepository("cucumber-ml:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-ml:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_build = new github.TeamRepository("cucumber-ml:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml__github = new github.TeamRepository("cucumber-ml:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_cucumber_expressions = new github.TeamRepository("cucumber-ml:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_tag_expressions = new github.TeamRepository("cucumber-ml:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_suggest = new github.TeamRepository("cucumber-ml:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_language_service = new github.TeamRepository("cucumber-ml:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_language_server = new github.TeamRepository("cucumber-ml:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_monaco = new github.TeamRepository("cucumber-ml:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_awesome_cucumber = new github.TeamRepository("cucumber-ml:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_github_settings = new github.TeamRepository("cucumber-ml:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "2602947",
 }, {
     protect: true,
@@ -2311,6 +3620,146 @@ const cucumber_ruby_cucumber_electron = new github.TeamRepository("cucumber-ruby
 }, {
     protect: true,
 });
+const cucumber_ruby_docs = new github.TeamRepository("cucumber-ruby:docs", {
+    permission: "maintain",
+    repository: "docs",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_aruba_getting_started = new github.TeamRepository("cucumber-ruby:aruba-getting-started", {
+    permission: "maintain",
+    repository: "aruba-getting-started",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_commitbit = new github.TeamRepository("cucumber-ruby:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_jvm_scala = new github.TeamRepository("cucumber-ruby:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_ml = new github.TeamRepository("cucumber-ruby:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tag_expressions_go = new github.TeamRepository("cucumber-ruby:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-ruby:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-ruby:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_ruby_meta = new github.TeamRepository("cucumber-ruby:cucumber-ruby-meta", {
+    permission: "admin",
+    repository: "cucumber-ruby-meta",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-ruby:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_build = new github.TeamRepository("cucumber-ruby:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby__github = new github.TeamRepository("cucumber-ruby:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_cucumber_expressions = new github.TeamRepository("cucumber-ruby:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tag_expressions = new github.TeamRepository("cucumber-ruby:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_suggest = new github.TeamRepository("cucumber-ruby:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_language_service = new github.TeamRepository("cucumber-ruby:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_language_server = new github.TeamRepository("cucumber-ruby:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_monaco = new github.TeamRepository("cucumber-ruby:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_awesome_cucumber = new github.TeamRepository("cucumber-ruby:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
+const cucumber_ruby_github_settings = new github.TeamRepository("cucumber-ruby:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
 const cucumber_ruby_tcl_cucumber_ruby = new github.TeamRepository("cucumber-ruby-tcl:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2517,6 +3966,139 @@ const cucumber_ruby_tcl_cucumber_electron = new github.TeamRepository("cucumber-
 const cucumber_ruby_tcl_docs = new github.TeamRepository("cucumber-ruby-tcl:docs", {
     permission: "maintain",
     repository: "docs",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_aruba_getting_started = new github.TeamRepository("cucumber-ruby-tcl:aruba-getting-started", {
+    permission: "maintain",
+    repository: "aruba-getting-started",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_commitbit = new github.TeamRepository("cucumber-ruby-tcl:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_jvm_scala = new github.TeamRepository("cucumber-ruby-tcl:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_ml = new github.TeamRepository("cucumber-ruby-tcl:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_tag_expressions_go = new github.TeamRepository("cucumber-ruby-tcl:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_eclipse_update_site = new github.TeamRepository("cucumber-ruby-tcl:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("cucumber-ruby-tcl:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_ruby_meta = new github.TeamRepository("cucumber-ruby-tcl:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_todo_react_typescript_subsecond = new github.TeamRepository("cucumber-ruby-tcl:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_build = new github.TeamRepository("cucumber-ruby-tcl:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl__github = new github.TeamRepository("cucumber-ruby-tcl:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_cucumber_expressions = new github.TeamRepository("cucumber-ruby-tcl:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_tag_expressions = new github.TeamRepository("cucumber-ruby-tcl:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_suggest = new github.TeamRepository("cucumber-ruby-tcl:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_language_service = new github.TeamRepository("cucumber-ruby-tcl:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_language_server = new github.TeamRepository("cucumber-ruby-tcl:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_monaco = new github.TeamRepository("cucumber-ruby-tcl:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_awesome_cucumber = new github.TeamRepository("cucumber-ruby-tcl:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_github_settings = new github.TeamRepository("cucumber-ruby-tcl:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "1979610",
 }, {
     protect: true,
@@ -2731,6 +4313,139 @@ const docs_aruba_getting_started = new github.TeamRepository("docs:aruba-getting
 }, {
     protect: true,
 });
+const docs_commitbit = new github.TeamRepository("docs:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_api_cucumber_io = new github.TeamRepository("docs:api.cucumber.io", {
+    permission: "admin",
+    repository: "api.cucumber.io",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_jvm_scala = new github.TeamRepository("docs:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_ml = new github.TeamRepository("docs:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_tag_expressions_go = new github.TeamRepository("docs:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_eclipse_update_site = new github.TeamRepository("docs:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("docs:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_ruby_meta = new github.TeamRepository("docs:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_todo_react_typescript_subsecond = new github.TeamRepository("docs:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_build = new github.TeamRepository("docs:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs__github = new github.TeamRepository("docs:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_cucumber_expressions = new github.TeamRepository("docs:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_tag_expressions = new github.TeamRepository("docs:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_suggest = new github.TeamRepository("docs:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_language_service = new github.TeamRepository("docs:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_language_server = new github.TeamRepository("docs:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_monaco = new github.TeamRepository("docs:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_awesome_cucumber = new github.TeamRepository("docs:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
+const docs_github_settings = new github.TeamRepository("docs:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
 const gherkin_cucumber_ruby = new github.TeamRepository("gherkin:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2937,6 +4652,132 @@ const gherkin_docs = new github.TeamRepository("gherkin:docs", {
 const gherkin_aruba_getting_started = new github.TeamRepository("gherkin:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_commitbit = new github.TeamRepository("gherkin:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_jvm_scala = new github.TeamRepository("gherkin:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_ml = new github.TeamRepository("gherkin:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_tag_expressions_go = new github.TeamRepository("gherkin:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_eclipse_update_site = new github.TeamRepository("gherkin:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("gherkin:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_ruby_meta = new github.TeamRepository("gherkin:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_todo_react_typescript_subsecond = new github.TeamRepository("gherkin:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_build = new github.TeamRepository("gherkin:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin__github = new github.TeamRepository("gherkin:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_cucumber_expressions = new github.TeamRepository("gherkin:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_tag_expressions = new github.TeamRepository("gherkin:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_suggest = new github.TeamRepository("gherkin:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_language_service = new github.TeamRepository("gherkin:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_language_server = new github.TeamRepository("gherkin:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_monaco = new github.TeamRepository("gherkin:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_awesome_cucumber = new github.TeamRepository("gherkin:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_github_settings = new github.TeamRepository("gherkin:github-settings", {
+    permission: "push",
+    repository: "github-settings",
     teamId: "1977884",
 }, {
     protect: true,
@@ -3151,6 +4992,132 @@ const go_aruba_getting_started = new github.TeamRepository("go:aruba-getting-sta
 }, {
     protect: true,
 });
+const go_commitbit = new github.TeamRepository("go:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_jvm_scala = new github.TeamRepository("go:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_ml = new github.TeamRepository("go:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_tag_expressions_go = new github.TeamRepository("go:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_eclipse_update_site = new github.TeamRepository("go:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("go:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_ruby_meta = new github.TeamRepository("go:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_todo_react_typescript_subsecond = new github.TeamRepository("go:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_build = new github.TeamRepository("go:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go__github = new github.TeamRepository("go:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_cucumber_expressions = new github.TeamRepository("go:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_tag_expressions = new github.TeamRepository("go:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_suggest = new github.TeamRepository("go:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_language_service = new github.TeamRepository("go:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_language_server = new github.TeamRepository("go:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_monaco = new github.TeamRepository("go:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_awesome_cucumber = new github.TeamRepository("go:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+const go_github_settings = new github.TeamRepository("go:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
 const release_cucumber_ruby = new github.TeamRepository("release:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -3357,6 +5324,139 @@ const release_docs = new github.TeamRepository("release:docs", {
 const release_aruba_getting_started = new github.TeamRepository("release:aruba-getting-started", {
     permission: "maintain",
     repository: "aruba-getting-started",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_commitbit = new github.TeamRepository("release:commitbit", {
+    permission: "maintain",
+    repository: "commitbit",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_jvm_scala = new github.TeamRepository("release:cucumber-jvm-scala", {
+    permission: "push",
+    repository: "cucumber-jvm-scala",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_ml = new github.TeamRepository("release:cucumber.ml", {
+    permission: "maintain",
+    repository: "cucumber.ml",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_tag_expressions_go = new github.TeamRepository("release:tag-expressions-go", {
+    permission: "maintain",
+    repository: "tag-expressions-go",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_eclipse_update_site = new github.TeamRepository("release:cucumber-eclipse-update-site", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_eclipse_update_site_snapshot = new github.TeamRepository("release:cucumber-eclipse-update-site-snapshot", {
+    permission: "maintain",
+    repository: "cucumber-eclipse-update-site-snapshot",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_ruby_meta = new github.TeamRepository("release:cucumber-ruby-meta", {
+    permission: "maintain",
+    repository: "cucumber-ruby-meta",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_todo_react_typescript_subsecond = new github.TeamRepository("release:todo-react-typescript-subsecond", {
+    permission: "maintain",
+    repository: "todo-react-typescript-subsecond",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_build = new github.TeamRepository("release:build", {
+    permission: "maintain",
+    repository: "build",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release__github = new github.TeamRepository("release:.github", {
+    permission: "push",
+    repository: ".github",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_cucumber_expressions = new github.TeamRepository("release:cucumber-expressions", {
+    permission: "maintain",
+    repository: "cucumber-expressions",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_tag_expressions = new github.TeamRepository("release:tag-expressions", {
+    permission: "maintain",
+    repository: "tag-expressions",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_suggest = new github.TeamRepository("release:suggest", {
+    permission: "maintain",
+    repository: "suggest",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_language_service = new github.TeamRepository("release:language-service", {
+    permission: "maintain",
+    repository: "language-service",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_language_server = new github.TeamRepository("release:language-server", {
+    permission: "maintain",
+    repository: "language-server",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_monaco = new github.TeamRepository("release:monaco", {
+    permission: "maintain",
+    repository: "monaco",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_awesome_cucumber = new github.TeamRepository("release:awesome-cucumber", {
+    permission: "maintain",
+    repository: "awesome-cucumber",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_github_settings = new github.TeamRepository("release:github-settings", {
+    permission: "push",
+    repository: "github-settings",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_action_publish_cpan = new github.TeamRepository("release:action-publish-cpan", {
+    permission: "push",
+    repository: "action-publish-cpan",
     teamId: "5227827",
 }, {
     protect: true,

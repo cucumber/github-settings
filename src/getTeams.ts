@@ -4,10 +4,13 @@ export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const org = process.env.GITHUB_OWNER || "unknown";
 
 export async function getTeams(): Promise<any> {
-  const response = await octokit.request("GET /orgs/{org}/teams", {
-    org,
-  });
-  return response.data;
+  return octokit.paginate(
+    "GET /orgs/{org}/teams",
+    {
+      org,
+    },
+    (response) => response.data
+  );
 }
 
 if (process.argv.length > 1 && process.argv[1] === __filename) {

@@ -4,16 +4,15 @@ import { getTeams } from "./getTeams";
 export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 const org = process.env.GITHUB_OWNER || "unknown";
 
-export async function getTeamRepositories(teamSlug: string): Promise<any> {
-  const response = await octokit.request(
+export const getTeamRepositories = async (teamSlug: string): Promise<any> =>
+  octokit.paginate(
     "GET /orgs/{org}/teams/{team_slug}/repos",
     {
       org,
       team_slug: teamSlug,
-    }
+    },
+    (response) => response.data
   );
-  return response.data;
-}
 
 if (process.argv.length > 1) {
   (async () => {
@@ -33,6 +32,6 @@ if (process.argv.length > 1) {
   })()
     .then((resources: any) => console.log(JSON.stringify({ resources })))
     .catch((error: any) =>
-      console.error(`${error.message}: ${error.request.url}`)
+      console.error(`${error.message}: ${error.request?.url}`)
     );
 }
