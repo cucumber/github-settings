@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-        make clean
-        make
-        [[ -z $(git status -s) ]] # Fail if there are any changes in git
+      - name: Refresh the import
+        run: |
+          make clean
+          make
+      - name: Fail if there are any changes from what's in git
+        run: |
+          [[ -z $(git status -s) ]]
