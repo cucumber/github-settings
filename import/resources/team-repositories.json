@@ -237,11 +237,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "aruba:github-settings",
-      "id": "2445010:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "build:cucumber-ruby",
       "id": "4797681:cucumber-ruby"
     },
@@ -517,11 +512,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "build:github-settings",
-      "id": "4797681:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:cucumber-ruby",
       "id": "46059:cucumber-ruby"
     },
@@ -739,11 +729,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:monaco",
       "id": "46059:monaco"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "committers:github-settings",
-      "id": "46059:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -979,11 +964,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "core:awesome-cucumber",
       "id": "2423254:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "core:github-settings",
-      "id": "2423254:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1227,11 +1207,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-android:github-settings",
-      "id": "2814891:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-cpp:cucumber-ruby",
       "id": "2446646:cucumber-ruby"
     },
@@ -1467,11 +1442,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-cpp:github-settings",
-      "id": "2446646:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:cucumber-ruby",
       "id": "4964254:cucumber-ruby"
     },
@@ -1704,11 +1674,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:awesome-cucumber",
       "id": "4964254:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-eclipse:github-settings",
-      "id": "4964254:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1952,11 +1917,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-js:github-settings",
-      "id": "2445014:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-jvm:cucumber-ruby",
       "id": "2372435:cucumber-ruby"
     },
@@ -2192,11 +2152,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-jvm:github-settings",
-      "id": "2372435:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ml:cucumber-ruby",
       "id": "2602947:cucumber-ruby"
     },
@@ -2429,11 +2384,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ml:awesome-cucumber",
       "id": "2602947:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ml:github-settings",
-      "id": "2602947:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -2682,11 +2632,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:github-settings",
-      "id": "1970510:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby-tcl:cucumber-ruby",
       "id": "1979610:cucumber-ruby"
     },
@@ -2924,11 +2869,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby-tcl:awesome-cucumber",
       "id": "1979610:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby-tcl:github-settings",
-      "id": "1979610:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3172,11 +3112,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "docs:github-settings",
-      "id": "2082625:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "gherkin:cucumber-ruby",
       "id": "1977884:cucumber-ruby"
     },
@@ -3409,11 +3344,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "gherkin:awesome-cucumber",
       "id": "1977884:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "gherkin:github-settings",
-      "id": "1977884:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3652,11 +3582,6 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "go:github-settings",
-      "id": "4815680:github-settings"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "release:cucumber-ruby",
       "id": "5227827:cucumber-ruby"
     },
@@ -3889,11 +3814,6 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "release:awesome-cucumber",
       "id": "5227827:awesome-cucumber"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "release:github-settings",
-      "id": "5227827:github-settings"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
