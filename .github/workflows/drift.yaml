@@ -9,6 +9,8 @@ jobs:
   check-for-drift:
     name: Run import and check for differences
     runs-on: ubuntu-latest
+    env:
+      GITHUB_OWNER: cucumber
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
