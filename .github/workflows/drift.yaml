@@ -1,0 +1,16 @@
+name: Check for drift
+on:
+  - workflow_dispatch
+  - schedule:
+      - cron: "0,15,30,45 * * * *"
+
+jobs:
+  check-for-drift:
+    name: Run import and check for differences
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+        make clean
+        make
+        [[ -z $(git status -s) ]] # Fail if there are any changes in git
