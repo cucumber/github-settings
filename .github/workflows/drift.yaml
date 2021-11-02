@@ -20,7 +20,9 @@ jobs:
       - run: npm install
       - name: Install Pulumi CLI
         uses: pulumi/setup-pulumi@v2
-      - run: pulumi login
+      - run: |
+          pulumi login
+          pulumi stack select cucumber/github-settings/github-actions
       - name: Refresh the import
         run: |
           make clean
