@@ -20,6 +20,7 @@ jobs:
       - run: npm install
       - name: Install Pulumi CLI
         uses: pulumi/setup-pulumi@v2
+      - run: pulumi login
       - name: Refresh the import
         run: |
           make clean
