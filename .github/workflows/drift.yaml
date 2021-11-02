@@ -28,7 +28,7 @@ jobs:
           make clean
           make
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CUKEBOT_GITHUB_TOKEN }}
       - name: Fail if there are any changes from what's in git
         run: |
           [[ -z $(git status -s) ]]
