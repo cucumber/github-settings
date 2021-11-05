@@ -330,6 +330,13 @@ const aruba_awesome_cucumber = new github.TeamRepository("aruba:awesome-cucumber
 }, {
     protect: true,
 });
+const aruba_create_meta = new github.TeamRepository("aruba:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
 const build_cucumber_ruby = new github.TeamRepository("build:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -715,6 +722,13 @@ const build_awesome_cucumber = new github.TeamRepository("build:awesome-cucumber
 }, {
     protect: true,
 });
+const build_create_meta = new github.TeamRepository("build:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
 const committers_cucumber_ruby = new github.TeamRepository("committers:cucumber-ruby", {
     permission: "push",
     repository: "cucumber-ruby",
@@ -1019,6 +1033,13 @@ const committers_language_server = new github.TeamRepository("committers:languag
 const committers_monaco = new github.TeamRepository("committers:monaco", {
     permission: "push",
     repository: "monaco",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+const committers_create_meta = new github.TeamRepository("committers:create-meta", {
+    permission: "push",
+    repository: "create-meta",
     teamId: "46059",
 }, {
     protect: true,
@@ -1348,6 +1369,13 @@ const core_monaco = new github.TeamRepository("core:monaco", {
 const core_awesome_cucumber = new github.TeamRepository("core:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+const core_create_meta = new github.TeamRepository("core:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "2423254",
 }, {
     protect: true,
@@ -1688,6 +1716,13 @@ const cucumber_android_awesome_cucumber = new github.TeamRepository("cucumber-an
 }, {
     protect: true,
 });
+const cucumber_android_create_meta = new github.TeamRepository("cucumber-android:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
 const cucumber_cpp_cucumber_ruby = new github.TeamRepository("cucumber-cpp:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2017,6 +2052,13 @@ const cucumber_cpp_awesome_cucumber = new github.TeamRepository("cucumber-cpp:aw
 }, {
     protect: true,
 });
+const cucumber_cpp_create_meta = new github.TeamRepository("cucumber-cpp:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
 const cucumber_eclipse_cucumber_ruby = new github.TeamRepository("cucumber-eclipse:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2342,6 +2384,13 @@ const cucumber_eclipse_monaco = new github.TeamRepository("cucumber-eclipse:mona
 const cucumber_eclipse_awesome_cucumber = new github.TeamRepository("cucumber-eclipse:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+const cucumber_eclipse_create_meta = new github.TeamRepository("cucumber-eclipse:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "4964254",
 }, {
     protect: true,
@@ -2682,6 +2731,13 @@ const cucumber_js_awesome_cucumber = new github.TeamRepository("cucumber-js:awes
 }, {
     protect: true,
 });
+const cucumber_js_create_meta = new github.TeamRepository("cucumber-js:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
 const cucumber_jvm_cucumber_ruby = new github.TeamRepository("cucumber-jvm:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -3011,6 +3067,13 @@ const cucumber_jvm_awesome_cucumber = new github.TeamRepository("cucumber-jvm:aw
 }, {
     protect: true,
 });
+const cucumber_jvm_create_meta = new github.TeamRepository("cucumber-jvm:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
 const cucumber_ml_cucumber_ruby = new github.TeamRepository("cucumber-ml:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -3336,6 +3399,13 @@ const cucumber_ml_monaco = new github.TeamRepository("cucumber-ml:monaco", {
 const cucumber_ml_awesome_cucumber = new github.TeamRepository("cucumber-ml:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+const cucumber_ml_create_meta = new github.TeamRepository("cucumber-ml:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "2602947",
 }, {
     protect: true,
@@ -3683,6 +3753,13 @@ const cucumber_ruby_awesome_cucumber = new github.TeamRepository("cucumber-ruby:
 }, {
     protect: true,
 });
+const cucumber_ruby_create_meta = new github.TeamRepository("cucumber-ruby:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
 const cucumber_ruby_tcl_cucumber_ruby = new github.TeamRepository("cucumber-ruby-tcl:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -4015,6 +4092,13 @@ const cucumber_ruby_tcl_monaco = new github.TeamRepository("cucumber-ruby-tcl:mo
 const cucumber_ruby_tcl_awesome_cucumber = new github.TeamRepository("cucumber-ruby-tcl:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+const cucumber_ruby_tcl_create_meta = new github.TeamRepository("cucumber-ruby-tcl:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "1979610",
 }, {
     protect: true,
@@ -4355,6 +4439,13 @@ const docs_awesome_cucumber = new github.TeamRepository("docs:awesome-cucumber",
 }, {
     protect: true,
 });
+const docs_create_meta = new github.TeamRepository("docs:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
 const gherkin_cucumber_ruby = new github.TeamRepository("gherkin:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -4680,6 +4771,13 @@ const gherkin_monaco = new github.TeamRepository("gherkin:monaco", {
 const gherkin_awesome_cucumber = new github.TeamRepository("gherkin:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+const gherkin_create_meta = new github.TeamRepository("gherkin:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "1977884",
 }, {
     protect: true,
@@ -5013,6 +5111,13 @@ const go_awesome_cucumber = new github.TeamRepository("go:awesome-cucumber", {
 }, {
     protect: true,
 });
+const go_create_meta = new github.TeamRepository("go:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
 const release_cucumber_ruby = new github.TeamRepository("release:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -5338,6 +5443,13 @@ const release_monaco = new github.TeamRepository("release:monaco", {
 const release_awesome_cucumber = new github.TeamRepository("release:awesome-cucumber", {
     permission: "maintain",
     repository: "awesome-cucumber",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+const release_create_meta = new github.TeamRepository("release:create-meta", {
+    permission: "maintain",
+    repository: "create-meta",
     teamId: "5227827",
 }, {
     protect: true,

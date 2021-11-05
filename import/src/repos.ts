@@ -49,17 +49,8 @@ const cucumber_aruba = new github.Repository("cucumber/aruba", {
     hasProjects: true,
     name: "aruba",
     topics: [
-        "framework",
-        "bdd",
-        "test-driven-development",
-        "test",
-        "testing-framework",
-        "rspec",
-        "behaviour-driven-development",
-        "shell",
-        "command",
-        "minitest",
-        "aruba",
+        undefined,
+        undefined,
         "tdd",
     ],
     vulnerabilityAlerts: true,
@@ -116,13 +107,12 @@ const cucumber_cucumber_js = new github.Repository("cucumber/cucumber-js", {
     pages: {
         source: {
             branch: "gh-pages",
-            path: "/",
         },
     },
     topics: [
+        undefined,
         "javascript",
         "cucumber",
-        "typescript",
     ],
     vulnerabilityAlerts: true,
 }, {
@@ -142,8 +132,8 @@ const cucumber_cucumber_jvm = new github.Repository("cucumber/cucumber-jvm", {
     homepageUrl: "https://cucumber.io",
     name: "cucumber-jvm",
     topics: [
-        "hacktoberfest",
-        "java",
+        undefined,
+        undefined,
         "cucumber-jvm",
     ],
     vulnerabilityAlerts: true,
@@ -183,7 +173,6 @@ const cucumber_cucumber_eclipse = new github.Repository("cucumber/cucumber-eclip
     pages: {
         source: {
             branch: "gh-pages",
-            path: "/",
         },
     },
     topics: ["hacktoberfest"],
@@ -360,13 +349,12 @@ const cucumber_godog = new github.Repository("cucumber/godog", {
     pages: {
         source: {
             branch: "gh-pages",
-            path: "/",
         },
     },
     topics: [
+        undefined,
         "gherkin",
         "integration-testing",
-        "functional-testing",
         "golang",
     ],
     vulnerabilityAlerts: true,
@@ -386,7 +374,7 @@ const cucumber_common = new github.Repository("cucumber/common", {
     homepageUrl: "https://cucumber.io/docs",
     name: "common",
     topics: [
-        "hacktoberfest",
+        undefined,
         "bdd-framework",
     ],
     vulnerabilityAlerts: true,
@@ -629,9 +617,9 @@ const cucumber_docs = new github.Repository("cucumber/docs", {
     homepageUrl: "https://cucumber.io/docs/installation/",
     name: "docs",
     topics: [
+        "gherkin",
+        "bdd",
         undefined,
-        undefined,
-        "cucumber",
         "docs",
     ],
     vulnerabilityAlerts: true,
@@ -783,7 +771,7 @@ const cucumber_cucumber_archetype = new github.Repository("cucumber/cucumber-arc
     hasWiki: true,
     name: "cucumber-archetype",
     topics: [
-        undefined,
+        "maven-archetype",
         "cucumber-jvm",
     ],
 }, {
@@ -1829,16 +1817,14 @@ const cucumber_awesome_cucumber = new github.Repository("cucumber/awesome-cucumb
     protect: true,
 });
 const cucumber_create_meta = new github.Repository("cucumber/create-meta", {
-    allowAutoMerge: false,
+    allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
     allowSquashMerge: true,
     archived: false,
-    deleteBranchOnMerge: false,
+    deleteBranchOnMerge: true,
     hasDownloads: true,
     hasIssues: true,
-    hasProjects: true,
-    hasWiki: true,
     name: "create-meta",
     vulnerabilityAlerts: true,
 }, {
