@@ -32,6 +32,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CUKEBOT_GITHUB_TOKEN }}
       - name: Fail if there are any changes from what's in git
-        run: |
-          git status --untracked-files=no --porcelain
-          [[ -z $(git status --untracked-files=no --porcelain) ]]
+        run: git diff --exit-code import
