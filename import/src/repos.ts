@@ -1,7 +1,7 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as github from "@pulumi/github";
 
-const cucumber_cucumber_ruby = new github.Repository("cucumber/cucumber-ruby", {
+export const cucumber_cucumber_ruby = new github.Repository("cucumber/cucumber-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -18,7 +18,7 @@ const cucumber_cucumber_ruby = new github.Repository("cucumber/cucumber-ruby", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_rails = new github.Repository("cucumber/cucumber-rails", {
+export const cucumber_cucumber_rails = new github.Repository("cucumber/cucumber-rails", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -36,7 +36,7 @@ const cucumber_cucumber_rails = new github.Repository("cucumber/cucumber-rails",
 }, {
     protect: true,
 });
-const cucumber_aruba = new github.Repository("cucumber/aruba", {
+export const cucumber_aruba = new github.Repository("cucumber/aruba", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: false,
@@ -57,7 +57,7 @@ const cucumber_aruba = new github.Repository("cucumber/aruba", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_tmbundle = new github.Repository("cucumber/cucumber-tmbundle", {
+export const cucumber_cucumber_tmbundle = new github.Repository("cucumber/cucumber-tmbundle", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -74,7 +74,7 @@ const cucumber_cucumber_tmbundle = new github.Repository("cucumber/cucumber-tmbu
 }, {
     protect: true,
 });
-const cucumber_cucumber_cpp = new github.Repository("cucumber/cucumber-cpp", {
+export const cucumber_cucumber_cpp = new github.Repository("cucumber/cucumber-cpp", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -91,7 +91,7 @@ const cucumber_cucumber_cpp = new github.Repository("cucumber/cucumber-cpp", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_js = new github.Repository("cucumber/cucumber-js", {
+export const cucumber_cucumber_js = new github.Repository("cucumber/cucumber-js", {
     allowAutoMerge: false,
     allowMergeCommit: false,
     allowRebaseMerge: false,
@@ -118,7 +118,7 @@ const cucumber_cucumber_js = new github.Repository("cucumber/cucumber-js", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_jvm = new github.Repository("cucumber/cucumber-jvm", {
+export const cucumber_cucumber_jvm = new github.Repository("cucumber/cucumber-jvm", {
     allowAutoMerge: false,
     allowMergeCommit: false,
     allowRebaseMerge: false,
@@ -140,7 +140,7 @@ const cucumber_cucumber_jvm = new github.Repository("cucumber/cucumber-jvm", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_lua = new github.Repository("cucumber/cucumber-lua", {
+export const cucumber_cucumber_lua = new github.Repository("cucumber/cucumber-lua", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -157,7 +157,7 @@ const cucumber_cucumber_lua = new github.Repository("cucumber/cucumber-lua", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_eclipse = new github.Repository("cucumber/cucumber-eclipse", {
+export const cucumber_cucumber_eclipse = new github.Repository("cucumber/cucumber-eclipse", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -180,7 +180,7 @@ const cucumber_cucumber_eclipse = new github.Repository("cucumber/cucumber-eclip
 }, {
     protect: true,
 });
-const cucumber_multi_test = new github.Repository("cucumber/multi_test", {
+export const cucumber_multi_test = new github.Repository("cucumber/multi_test", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -197,7 +197,7 @@ const cucumber_multi_test = new github.Repository("cucumber/multi_test", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_ruby_core = new github.Repository("cucumber/cucumber-ruby-core", {
+export const cucumber_cucumber_ruby_core = new github.Repository("cucumber/cucumber-ruby-core", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -213,7 +213,7 @@ const cucumber_cucumber_ruby_core = new github.Repository("cucumber/cucumber-rub
 }, {
     protect: true,
 });
-const cucumber_cucumber_java_skeleton = new github.Repository("cucumber/cucumber-java-skeleton", {
+export const cucumber_cucumber_java_skeleton = new github.Repository("cucumber/cucumber-java-skeleton", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -230,7 +230,7 @@ const cucumber_cucumber_java_skeleton = new github.Repository("cucumber/cucumber
 }, {
     protect: true,
 });
-const cucumber_website = new github.Repository("cucumber/website", {
+export const cucumber_website = new github.Repository("cucumber/website", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -247,7 +247,7 @@ const cucumber_website = new github.Repository("cucumber/website", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_ruby_tcl = new github.Repository("cucumber/cucumber-ruby-tcl", {
+export const cucumber_cucumber_ruby_tcl = new github.Repository("cucumber/cucumber-ruby-tcl", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -263,7 +263,7 @@ const cucumber_cucumber_ruby_tcl = new github.Repository("cucumber/cucumber-ruby
 }, {
     protect: true,
 });
-const cucumber_gherkin_ruby = new github.Repository("cucumber/gherkin-ruby", {
+export const cucumber_gherkin_ruby = new github.Repository("cucumber/gherkin-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -277,7 +277,7 @@ const cucumber_gherkin_ruby = new github.Repository("cucumber/gherkin-ruby", {
 }, {
     protect: true,
 });
-const cucumber_gherkin_java = new github.Repository("cucumber/gherkin-java", {
+export const cucumber_gherkin_java = new github.Repository("cucumber/gherkin-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -291,7 +291,7 @@ const cucumber_gherkin_java = new github.Repository("cucumber/gherkin-java", {
 }, {
     protect: true,
 });
-const cucumber_gherkin_javascript = new github.Repository("cucumber/gherkin-javascript", {
+export const cucumber_gherkin_javascript = new github.Repository("cucumber/gherkin-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -305,7 +305,7 @@ const cucumber_gherkin_javascript = new github.Repository("cucumber/gherkin-java
 }, {
     protect: true,
 });
-const cucumber_gherkin_go = new github.Repository("cucumber/gherkin-go", {
+export const cucumber_gherkin_go = new github.Repository("cucumber/gherkin-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -319,7 +319,7 @@ const cucumber_gherkin_go = new github.Repository("cucumber/gherkin-go", {
 }, {
     protect: true,
 });
-const cucumber_gherkin_dotnet = new github.Repository("cucumber/gherkin-dotnet", {
+export const cucumber_gherkin_dotnet = new github.Repository("cucumber/gherkin-dotnet", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -333,7 +333,7 @@ const cucumber_gherkin_dotnet = new github.Repository("cucumber/gherkin-dotnet",
 }, {
     protect: true,
 });
-const cucumber_godog = new github.Repository("cucumber/godog", {
+export const cucumber_godog = new github.Repository("cucumber/godog", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -361,7 +361,7 @@ const cucumber_godog = new github.Repository("cucumber/godog", {
 }, {
     protect: true,
 });
-const cucumber_common = new github.Repository("cucumber/common", {
+export const cucumber_common = new github.Repository("cucumber/common", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -381,7 +381,7 @@ const cucumber_common = new github.Repository("cucumber/common", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_ruby_wire = new github.Repository("cucumber/cucumber-ruby-wire", {
+export const cucumber_cucumber_ruby_wire = new github.Repository("cucumber/cucumber-ruby-wire", {
     allowAutoMerge: false,
     allowMergeCommit: false,
     allowRebaseMerge: true,
@@ -397,7 +397,7 @@ const cucumber_cucumber_ruby_wire = new github.Repository("cucumber/cucumber-rub
 }, {
     protect: true,
 });
-const cucumber_gherkin_python = new github.Repository("cucumber/gherkin-python", {
+export const cucumber_gherkin_python = new github.Repository("cucumber/gherkin-python", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -411,7 +411,7 @@ const cucumber_gherkin_python = new github.Repository("cucumber/gherkin-python",
 }, {
     protect: true,
 });
-const cucumber_gherkin_objective_c = new github.Repository("cucumber/gherkin-objective-c", {
+export const cucumber_gherkin_objective_c = new github.Repository("cucumber/gherkin-objective-c", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -425,7 +425,7 @@ const cucumber_gherkin_objective_c = new github.Repository("cucumber/gherkin-obj
 }, {
     protect: true,
 });
-const cucumber_cucumber_tcl_wire = new github.Repository("cucumber/cucumber-tcl-wire", {
+export const cucumber_cucumber_tcl_wire = new github.Repository("cucumber/cucumber-tcl-wire", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -442,7 +442,7 @@ const cucumber_cucumber_tcl_wire = new github.Repository("cucumber/cucumber-tcl-
 }, {
     protect: true,
 });
-const cucumber_gherkin_perl = new github.Repository("cucumber/gherkin-perl", {
+export const cucumber_gherkin_perl = new github.Repository("cucumber/gherkin-perl", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -456,7 +456,7 @@ const cucumber_gherkin_perl = new github.Repository("cucumber/gherkin-perl", {
 }, {
     protect: true,
 });
-const cucumber_tag_expressions_java = new github.Repository("cucumber/tag-expressions-java", {
+export const cucumber_tag_expressions_java = new github.Repository("cucumber/tag-expressions-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -470,7 +470,7 @@ const cucumber_tag_expressions_java = new github.Repository("cucumber/tag-expres
 }, {
     protect: true,
 });
-const cucumber_tag_expressions_javascript = new github.Repository("cucumber/tag-expressions-javascript", {
+export const cucumber_tag_expressions_javascript = new github.Repository("cucumber/tag-expressions-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -484,7 +484,7 @@ const cucumber_tag_expressions_javascript = new github.Repository("cucumber/tag-
 }, {
     protect: true,
 });
-const cucumber_cucumber_expressions_java = new github.Repository("cucumber/cucumber-expressions-java", {
+export const cucumber_cucumber_expressions_java = new github.Repository("cucumber/cucumber-expressions-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -498,7 +498,7 @@ const cucumber_cucumber_expressions_java = new github.Repository("cucumber/cucum
 }, {
     protect: true,
 });
-const cucumber_cucumber_expressions_javascript = new github.Repository("cucumber/cucumber-expressions-javascript", {
+export const cucumber_cucumber_expressions_javascript = new github.Repository("cucumber/cucumber-expressions-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -512,7 +512,7 @@ const cucumber_cucumber_expressions_javascript = new github.Repository("cucumber
 }, {
     protect: true,
 });
-const cucumber_cucumber_expressions_ruby = new github.Repository("cucumber/cucumber-expressions-ruby", {
+export const cucumber_cucumber_expressions_ruby = new github.Repository("cucumber/cucumber-expressions-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -526,7 +526,7 @@ const cucumber_cucumber_expressions_ruby = new github.Repository("cucumber/cucum
 }, {
     protect: true,
 });
-const cucumber_tag_expressions_ruby = new github.Repository("cucumber/tag-expressions-ruby", {
+export const cucumber_tag_expressions_ruby = new github.Repository("cucumber/tag-expressions-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -540,7 +540,7 @@ const cucumber_tag_expressions_ruby = new github.Repository("cucumber/tag-expres
 }, {
     protect: true,
 });
-const cucumber_cucumber_react = new github.Repository("cucumber/cucumber-react", {
+export const cucumber_cucumber_react = new github.Repository("cucumber/cucumber-react", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -554,7 +554,7 @@ const cucumber_cucumber_react = new github.Repository("cucumber/cucumber-react",
 }, {
     protect: true,
 });
-const cucumber_cucumber_electron = new github.Repository("cucumber/cucumber-electron", {
+export const cucumber_cucumber_electron = new github.Repository("cucumber/cucumber-electron", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -571,7 +571,7 @@ const cucumber_cucumber_electron = new github.Repository("cucumber/cucumber-elec
 }, {
     protect: true,
 });
-const cucumber_git_subrepo = new github.Repository("cucumber/git-subrepo", {
+export const cucumber_git_subrepo = new github.Repository("cucumber/git-subrepo", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -586,7 +586,7 @@ const cucumber_git_subrepo = new github.Repository("cucumber/git-subrepo", {
 }, {
     protect: true,
 });
-const cucumber_gherkin_c = new github.Repository("cucumber/gherkin-c", {
+export const cucumber_gherkin_c = new github.Repository("cucumber/gherkin-c", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -603,7 +603,7 @@ const cucumber_gherkin_c = new github.Repository("cucumber/gherkin-c", {
 }, {
     protect: true,
 });
-const cucumber_docs = new github.Repository("cucumber/docs", {
+export const cucumber_docs = new github.Repository("cucumber/docs", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -626,7 +626,7 @@ const cucumber_docs = new github.Repository("cucumber/docs", {
 }, {
     protect: true,
 });
-const cucumber_aruba_getting_started = new github.Repository("cucumber/aruba-getting-started", {
+export const cucumber_aruba_getting_started = new github.Repository("cucumber/aruba-getting-started", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -642,7 +642,7 @@ const cucumber_aruba_getting_started = new github.Repository("cucumber/aruba-get
 }, {
     protect: true,
 });
-const cucumber_commitbit = new github.Repository("cucumber/commitbit", {
+export const cucumber_commitbit = new github.Repository("cucumber/commitbit", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -659,7 +659,7 @@ const cucumber_commitbit = new github.Repository("cucumber/commitbit", {
 }, {
     protect: true,
 });
-const cucumber_github_issue_stats = new github.Repository("cucumber/github-issue-stats", {
+export const cucumber_github_issue_stats = new github.Repository("cucumber/github-issue-stats", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -675,7 +675,7 @@ const cucumber_github_issue_stats = new github.Repository("cucumber/github-issue
 }, {
     protect: true,
 });
-const cucumber_cucumber_json_testdata_generator = new github.Repository("cucumber/cucumber-json-testdata-generator", {
+export const cucumber_cucumber_json_testdata_generator = new github.Repository("cucumber/cucumber-json-testdata-generator", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -692,7 +692,7 @@ const cucumber_cucumber_json_testdata_generator = new github.Repository("cucumbe
 }, {
     protect: true,
 });
-const cucumber_api_cucumber_io = new github.Repository("cucumber/api.cucumber.io", {
+export const cucumber_api_cucumber_io = new github.Repository("cucumber/api.cucumber.io", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -706,7 +706,7 @@ const cucumber_api_cucumber_io = new github.Repository("cucumber/api.cucumber.io
 }, {
     protect: true,
 });
-const cucumber_cucumber_jvm_groovy = new github.Repository("cucumber/cucumber-jvm-groovy", {
+export const cucumber_cucumber_jvm_groovy = new github.Repository("cucumber/cucumber-jvm-groovy", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -723,7 +723,7 @@ const cucumber_cucumber_jvm_groovy = new github.Repository("cucumber/cucumber-jv
 }, {
     protect: true,
 });
-const cucumber_cucumber_jvm_scala = new github.Repository("cucumber/cucumber-jvm-scala", {
+export const cucumber_cucumber_jvm_scala = new github.Repository("cucumber/cucumber-jvm-scala", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -740,7 +740,7 @@ const cucumber_cucumber_jvm_scala = new github.Repository("cucumber/cucumber-jvm
 }, {
     protect: true,
 });
-const cucumber_cucumber_ml = new github.Repository("cucumber/cucumber.ml", {
+export const cucumber_cucumber_ml = new github.Repository("cucumber/cucumber.ml", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -757,7 +757,7 @@ const cucumber_cucumber_ml = new github.Repository("cucumber/cucumber.ml", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_archetype = new github.Repository("cucumber/cucumber-archetype", {
+export const cucumber_cucumber_archetype = new github.Repository("cucumber/cucumber-archetype", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -777,7 +777,7 @@ const cucumber_cucumber_archetype = new github.Repository("cucumber/cucumber-arc
 }, {
     protect: true,
 });
-const cucumber_tag_expressions_go = new github.Repository("cucumber/tag-expressions-go", {
+export const cucumber_tag_expressions_go = new github.Repository("cucumber/tag-expressions-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -794,7 +794,7 @@ const cucumber_tag_expressions_go = new github.Repository("cucumber/tag-expressi
 }, {
     protect: true,
 });
-const cucumber_config_java = new github.Repository("cucumber/config-java", {
+export const cucumber_config_java = new github.Repository("cucumber/config-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -811,7 +811,7 @@ const cucumber_config_java = new github.Repository("cucumber/config-java", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_expressions_go = new github.Repository("cucumber/cucumber-expressions-go", {
+export const cucumber_cucumber_expressions_go = new github.Repository("cucumber/cucumber-expressions-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -825,7 +825,7 @@ const cucumber_cucumber_expressions_go = new github.Repository("cucumber/cucumbe
 }, {
     protect: true,
 });
-const cucumber_datatable_java = new github.Repository("cucumber/datatable-java", {
+export const cucumber_datatable_java = new github.Repository("cucumber/datatable-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -841,7 +841,7 @@ const cucumber_datatable_java = new github.Repository("cucumber/datatable-java",
 }, {
     protect: true,
 });
-const cucumber_tag_expressions_python = new github.Repository("cucumber/tag-expressions-python", {
+export const cucumber_tag_expressions_python = new github.Repository("cucumber/tag-expressions-python", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -855,7 +855,7 @@ const cucumber_tag_expressions_python = new github.Repository("cucumber/tag-expr
 }, {
     protect: true,
 });
-const cucumber_slack_invite_automation = new github.Repository("cucumber/slack-invite-automation", {
+export const cucumber_slack_invite_automation = new github.Repository("cucumber/slack-invite-automation", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -871,7 +871,7 @@ const cucumber_slack_invite_automation = new github.Repository("cucumber/slack-i
 }, {
     protect: true,
 });
-const cucumber_messages_java = new github.Repository("cucumber/messages-java", {
+export const cucumber_messages_java = new github.Repository("cucumber/messages-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -886,7 +886,7 @@ const cucumber_messages_java = new github.Repository("cucumber/messages-java", {
 }, {
     protect: true,
 });
-const cucumber_messages_javascript = new github.Repository("cucumber/messages-javascript", {
+export const cucumber_messages_javascript = new github.Repository("cucumber/messages-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -901,7 +901,7 @@ const cucumber_messages_javascript = new github.Repository("cucumber/messages-ja
 }, {
     protect: true,
 });
-const cucumber_messages_go = new github.Repository("cucumber/messages-go", {
+export const cucumber_messages_go = new github.Repository("cucumber/messages-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -916,7 +916,7 @@ const cucumber_messages_go = new github.Repository("cucumber/messages-go", {
 }, {
     protect: true,
 });
-const cucumber_messages_dotnet = new github.Repository("cucumber/messages-dotnet", {
+export const cucumber_messages_dotnet = new github.Repository("cucumber/messages-dotnet", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -931,7 +931,7 @@ const cucumber_messages_dotnet = new github.Repository("cucumber/messages-dotnet
 }, {
     protect: true,
 });
-const cucumber_messages_ruby = new github.Repository("cucumber/messages-ruby", {
+export const cucumber_messages_ruby = new github.Repository("cucumber/messages-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -946,7 +946,7 @@ const cucumber_messages_ruby = new github.Repository("cucumber/messages-ruby", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_android = new github.Repository("cucumber/cucumber-android", {
+export const cucumber_cucumber_android = new github.Repository("cucumber/cucumber-android", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -963,7 +963,7 @@ const cucumber_cucumber_android = new github.Repository("cucumber/cucumber-andro
 }, {
     protect: true,
 });
-const cucumber_dots_formatter_go = new github.Repository("cucumber/dots-formatter-go", {
+export const cucumber_dots_formatter_go = new github.Repository("cucumber/dots-formatter-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -980,7 +980,7 @@ const cucumber_dots_formatter_go = new github.Repository("cucumber/dots-formatte
 }, {
     protect: true,
 });
-const cucumber_dots_formatter_ruby = new github.Repository("cucumber/dots-formatter-ruby", {
+export const cucumber_dots_formatter_ruby = new github.Repository("cucumber/dots-formatter-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -994,7 +994,7 @@ const cucumber_dots_formatter_ruby = new github.Repository("cucumber/dots-format
 }, {
     protect: true,
 });
-const cucumber_c21e_ruby = new github.Repository("cucumber/c21e-ruby", {
+export const cucumber_c21e_ruby = new github.Repository("cucumber/c21e-ruby", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1011,7 +1011,7 @@ const cucumber_c21e_ruby = new github.Repository("cucumber/c21e-ruby", {
 }, {
     protect: true,
 });
-const cucumber_c21e_java = new github.Repository("cucumber/c21e-java", {
+export const cucumber_c21e_java = new github.Repository("cucumber/c21e-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1028,7 +1028,7 @@ const cucumber_c21e_java = new github.Repository("cucumber/c21e-java", {
 }, {
     protect: true,
 });
-const cucumber_c21e_javascript = new github.Repository("cucumber/c21e-javascript", {
+export const cucumber_c21e_javascript = new github.Repository("cucumber/c21e-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1045,7 +1045,7 @@ const cucumber_c21e_javascript = new github.Repository("cucumber/c21e-javascript
 }, {
     protect: true,
 });
-const cucumber_pretty_formatter_go = new github.Repository("cucumber/pretty-formatter-go", {
+export const cucumber_pretty_formatter_go = new github.Repository("cucumber/pretty-formatter-go", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1062,7 +1062,7 @@ const cucumber_pretty_formatter_go = new github.Repository("cucumber/pretty-form
 }, {
     protect: true,
 });
-const cucumber_cucumber_parent = new github.Repository("cucumber/cucumber-parent", {
+export const cucumber_cucumber_parent = new github.Repository("cucumber/cucumber-parent", {
     allowAutoMerge: false,
     allowMergeCommit: false,
     allowRebaseMerge: false,
@@ -1078,7 +1078,7 @@ const cucumber_cucumber_parent = new github.Repository("cucumber/cucumber-parent
 }, {
     protect: true,
 });
-const cucumber_cucumber_eclipse_update_site = new github.Repository("cucumber/cucumber-eclipse-update-site", {
+export const cucumber_cucumber_eclipse_update_site = new github.Repository("cucumber/cucumber-eclipse-update-site", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1098,7 +1098,7 @@ const cucumber_cucumber_eclipse_update_site = new github.Repository("cucumber/cu
 }, {
     protect: true,
 });
-const cucumber_cucumber_eclipse_update_site_snapshot = new github.Repository("cucumber/cucumber-eclipse-update-site-snapshot", {
+export const cucumber_cucumber_eclipse_update_site_snapshot = new github.Repository("cucumber/cucumber-eclipse-update-site-snapshot", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1118,7 +1118,7 @@ const cucumber_cucumber_eclipse_update_site_snapshot = new github.Repository("cu
 }, {
     protect: true,
 });
-const cucumber_cucumber_io_file_generator = new github.Repository("cucumber/cucumber.io-file-generator", {
+export const cucumber_cucumber_io_file_generator = new github.Repository("cucumber/cucumber.io-file-generator", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1135,7 +1135,7 @@ const cucumber_cucumber_io_file_generator = new github.Repository("cucumber/cucu
 }, {
     protect: true,
 });
-const cucumber_cucumber_ruby_meta = new github.Repository("cucumber/cucumber-ruby-meta", {
+export const cucumber_cucumber_ruby_meta = new github.Repository("cucumber/cucumber-ruby-meta", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1152,7 +1152,7 @@ const cucumber_cucumber_ruby_meta = new github.Repository("cucumber/cucumber-rub
 }, {
     protect: true,
 });
-const cucumber_repo_template = new github.Repository("cucumber/repo-template", {
+export const cucumber_repo_template = new github.Repository("cucumber/repo-template", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1169,7 +1169,7 @@ const cucumber_repo_template = new github.Repository("cucumber/repo-template", {
 }, {
     protect: true,
 });
-const cucumber_html_formatter = new github.Repository("cucumber/html-formatter", {
+export const cucumber_html_formatter = new github.Repository("cucumber/html-formatter", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1183,7 +1183,7 @@ const cucumber_html_formatter = new github.Repository("cucumber/html-formatter",
 }, {
     protect: true,
 });
-const cucumber_fake_cucumber_javascript = new github.Repository("cucumber/fake-cucumber-javascript", {
+export const cucumber_fake_cucumber_javascript = new github.Repository("cucumber/fake-cucumber-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1200,7 +1200,7 @@ const cucumber_fake_cucumber_javascript = new github.Repository("cucumber/fake-c
 }, {
     protect: true,
 });
-const cucumber_protobuf = new github.Repository("cucumber/protobuf", {
+export const cucumber_protobuf = new github.Repository("cucumber/protobuf", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1217,7 +1217,7 @@ const cucumber_protobuf = new github.Repository("cucumber/protobuf", {
 }, {
     protect: true,
 });
-const cucumber_protobuf_js = new github.Repository("cucumber/protobuf.js", {
+export const cucumber_protobuf_js = new github.Repository("cucumber/protobuf.js", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1233,7 +1233,7 @@ const cucumber_protobuf_js = new github.Repository("cucumber/protobuf.js", {
 }, {
     protect: true,
 });
-const cucumber_html_formatter_java = new github.Repository("cucumber/html-formatter-java", {
+export const cucumber_html_formatter_java = new github.Repository("cucumber/html-formatter-java", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1247,7 +1247,7 @@ const cucumber_html_formatter_java = new github.Repository("cucumber/html-format
 }, {
     protect: true,
 });
-const cucumber_todo_react_typescript_subsecond = new github.Repository("cucumber/todo-react-typescript-subsecond", {
+export const cucumber_todo_react_typescript_subsecond = new github.Repository("cucumber/todo-react-typescript-subsecond", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1264,7 +1264,7 @@ const cucumber_todo_react_typescript_subsecond = new github.Repository("cucumber
 }, {
     protect: true,
 });
-const cucumber_microdata = new github.Repository("cucumber/microdata", {
+export const cucumber_microdata = new github.Repository("cucumber/microdata", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1281,7 +1281,7 @@ const cucumber_microdata = new github.Repository("cucumber/microdata", {
 }, {
     protect: true,
 });
-const cucumber_compatibility_kit_javascript = new github.Repository("cucumber/compatibility-kit-javascript", {
+export const cucumber_compatibility_kit_javascript = new github.Repository("cucumber/compatibility-kit-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1298,7 +1298,7 @@ const cucumber_compatibility_kit_javascript = new github.Repository("cucumber/co
 }, {
     protect: true,
 });
-const cucumber_cucumber_message_upload_service = new github.Repository("cucumber/cucumber-message-upload-service", {
+export const cucumber_cucumber_message_upload_service = new github.Repository("cucumber/cucumber-message-upload-service", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1314,7 +1314,7 @@ const cucumber_cucumber_message_upload_service = new github.Repository("cucumber
 }, {
     protect: true,
 });
-const cucumber_cucumber_classroom = new github.Repository("cucumber/cucumber-classroom", {
+export const cucumber_cucumber_classroom = new github.Repository("cucumber/cucumber-classroom", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1332,7 +1332,7 @@ const cucumber_cucumber_classroom = new github.Repository("cucumber/cucumber-cla
 }, {
     protect: true,
 });
-const cucumber_build = new github.Repository("cucumber/build", {
+export const cucumber_build = new github.Repository("cucumber/build", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1347,7 +1347,7 @@ const cucumber_build = new github.Repository("cucumber/build", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_js_package_upgrade = new github.Repository("cucumber/cucumber-js-package-upgrade", {
+export const cucumber_cucumber_js_package_upgrade = new github.Repository("cucumber/cucumber-js-package-upgrade", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1361,7 +1361,7 @@ const cucumber_cucumber_js_package_upgrade = new github.Repository("cucumber/cuc
 }, {
     protect: true,
 });
-const cucumber_coffee_machine = new github.Repository("cucumber/coffee-machine", {
+export const cucumber_coffee_machine = new github.Repository("cucumber/coffee-machine", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1376,7 +1376,7 @@ const cucumber_coffee_machine = new github.Repository("cucumber/coffee-machine",
 }, {
     protect: true,
 });
-const cucumber_private = new github.Repository("cucumber/private", {
+export const cucumber_private = new github.Repository("cucumber/private", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1393,7 +1393,7 @@ const cucumber_private = new github.Repository("cucumber/private", {
 }, {
     protect: true,
 });
-const cucumber_coffee_machine_javascript = new github.Repository("cucumber/coffee-machine-javascript", {
+export const cucumber_coffee_machine_javascript = new github.Repository("cucumber/coffee-machine-javascript", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1410,7 +1410,7 @@ const cucumber_coffee_machine_javascript = new github.Repository("cucumber/coffe
 }, {
     protect: true,
 });
-const cucumber_cucumber_pretty_formatter = new github.Repository("cucumber/cucumber-pretty-formatter", {
+export const cucumber_cucumber_pretty_formatter = new github.Repository("cucumber/cucumber-pretty-formatter", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1426,7 +1426,7 @@ const cucumber_cucumber_pretty_formatter = new github.Repository("cucumber/cucum
 }, {
     protect: true,
 });
-const cucumber_label_demo = new github.Repository("cucumber/label-demo", {
+export const cucumber_label_demo = new github.Repository("cucumber/label-demo", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1443,7 +1443,7 @@ const cucumber_label_demo = new github.Repository("cucumber/label-demo", {
 }, {
     protect: true,
 });
-const cucumber_screenplay_js = new github.Repository("cucumber/screenplay.js", {
+export const cucumber_screenplay_js = new github.Repository("cucumber/screenplay.js", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1460,7 +1460,7 @@ const cucumber_screenplay_js = new github.Repository("cucumber/screenplay.js", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_json_schema = new github.Repository("cucumber/cucumber-json-schema", {
+export const cucumber_cucumber_json_schema = new github.Repository("cucumber/cucumber-json-schema", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1477,7 +1477,7 @@ const cucumber_cucumber_json_schema = new github.Repository("cucumber/cucumber-j
 }, {
     protect: true,
 });
-const cucumber_oselvar_github_metrics = new github.Repository("cucumber/oselvar-github-metrics", {
+export const cucumber_oselvar_github_metrics = new github.Repository("cucumber/oselvar-github-metrics", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1498,7 +1498,7 @@ const cucumber_oselvar_github_metrics = new github.Repository("cucumber/oselvar-
 }, {
     protect: true,
 });
-const cucumber_har_net_http = new github.Repository("cucumber/har-net-http", {
+export const cucumber_har_net_http = new github.Repository("cucumber/har-net-http", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1515,7 +1515,7 @@ const cucumber_har_net_http = new github.Repository("cucumber/har-net-http", {
 }, {
     protect: true,
 });
-const cucumber__github = new github.Repository("cucumber/.github", {
+export const cucumber__github = new github.Repository("cucumber/.github", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1531,7 +1531,7 @@ const cucumber__github = new github.Repository("cucumber/.github", {
 }, {
     protect: true,
 });
-const cucumber_changelog = new github.Repository("cucumber/changelog", {
+export const cucumber_changelog = new github.Repository("cucumber/changelog", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1545,7 +1545,7 @@ const cucumber_changelog = new github.Repository("cucumber/changelog", {
 }, {
     protect: true,
 });
-const cucumber_action_changelog = new github.Repository("cucumber/action-changelog", {
+export const cucumber_action_changelog = new github.Repository("cucumber/action-changelog", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1560,7 +1560,7 @@ const cucumber_action_changelog = new github.Repository("cucumber/action-changel
 }, {
     protect: true,
 });
-const cucumber_action_create_release_pr = new github.Repository("cucumber/action-create-release-pr", {
+export const cucumber_action_create_release_pr = new github.Repository("cucumber/action-create-release-pr", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1575,7 +1575,7 @@ const cucumber_action_create_release_pr = new github.Repository("cucumber/action
 }, {
     protect: true,
 });
-const cucumber_action_publish_rubygem = new github.Repository("cucumber/action-publish-rubygem", {
+export const cucumber_action_publish_rubygem = new github.Repository("cucumber/action-publish-rubygem", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1591,7 +1591,7 @@ const cucumber_action_publish_rubygem = new github.Repository("cucumber/action-p
 }, {
     protect: true,
 });
-const cucumber_action_get_versions = new github.Repository("cucumber/action-get-versions", {
+export const cucumber_action_get_versions = new github.Repository("cucumber/action-get-versions", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1606,7 +1606,7 @@ const cucumber_action_get_versions = new github.Repository("cucumber/action-get-
 }, {
     protect: true,
 });
-const cucumber_action_create_github_release = new github.Repository("cucumber/action-create-github-release", {
+export const cucumber_action_create_github_release = new github.Repository("cucumber/action-create-github-release", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1621,7 +1621,7 @@ const cucumber_action_create_github_release = new github.Repository("cucumber/ac
 }, {
     protect: true,
 });
-const cucumber_blockly = new github.Repository("cucumber/blockly", {
+export const cucumber_blockly = new github.Repository("cucumber/blockly", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1638,7 +1638,7 @@ const cucumber_blockly = new github.Repository("cucumber/blockly", {
 }, {
     protect: true,
 });
-const cucumber_cucumber_expressions = new github.Repository("cucumber/cucumber-expressions", {
+export const cucumber_cucumber_expressions = new github.Repository("cucumber/cucumber-expressions", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: false,
@@ -1658,7 +1658,7 @@ const cucumber_cucumber_expressions = new github.Repository("cucumber/cucumber-e
 }, {
     protect: true,
 });
-const cucumber_release_tests = new github.Repository("cucumber/release-tests", {
+export const cucumber_release_tests = new github.Repository("cucumber/release-tests", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1675,7 +1675,7 @@ const cucumber_release_tests = new github.Repository("cucumber/release-tests", {
 }, {
     protect: true,
 });
-const cucumber_action_publish_npm = new github.Repository("cucumber/action-publish-npm", {
+export const cucumber_action_publish_npm = new github.Repository("cucumber/action-publish-npm", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1691,7 +1691,7 @@ const cucumber_action_publish_npm = new github.Repository("cucumber/action-publi
 }, {
     protect: true,
 });
-const cucumber_action_publish_mvn = new github.Repository("cucumber/action-publish-mvn", {
+export const cucumber_action_publish_mvn = new github.Repository("cucumber/action-publish-mvn", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1708,7 +1708,7 @@ const cucumber_action_publish_mvn = new github.Repository("cucumber/action-publi
 }, {
     protect: true,
 });
-const cucumber_tag_expressions = new github.Repository("cucumber/tag-expressions", {
+export const cucumber_tag_expressions = new github.Repository("cucumber/tag-expressions", {
     allowAutoMerge: true,
     allowMergeCommit: false,
     allowRebaseMerge: true,
@@ -1723,7 +1723,7 @@ const cucumber_tag_expressions = new github.Repository("cucumber/tag-expressions
 }, {
     protect: true,
 });
-const cucumber_suggest = new github.Repository("cucumber/suggest", {
+export const cucumber_suggest = new github.Repository("cucumber/suggest", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1737,7 +1737,7 @@ const cucumber_suggest = new github.Repository("cucumber/suggest", {
 }, {
     protect: true,
 });
-const cucumber_language_service = new github.Repository("cucumber/language-service", {
+export const cucumber_language_service = new github.Repository("cucumber/language-service", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1752,7 +1752,7 @@ const cucumber_language_service = new github.Repository("cucumber/language-servi
 }, {
     protect: true,
 });
-const cucumber_language_server = new github.Repository("cucumber/language-server", {
+export const cucumber_language_server = new github.Repository("cucumber/language-server", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1767,7 +1767,7 @@ const cucumber_language_server = new github.Repository("cucumber/language-server
 }, {
     protect: true,
 });
-const cucumber_monaco = new github.Repository("cucumber/monaco", {
+export const cucumber_monaco = new github.Repository("cucumber/monaco", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1788,7 +1788,7 @@ const cucumber_monaco = new github.Repository("cucumber/monaco", {
 }, {
     protect: true,
 });
-const cucumber_vscode = new github.Repository("cucumber/vscode", {
+export const cucumber_vscode = new github.Repository("cucumber/vscode", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1805,7 +1805,7 @@ const cucumber_vscode = new github.Repository("cucumber/vscode", {
 }, {
     protect: true,
 });
-const cucumber_awesome_cucumber = new github.Repository("cucumber/awesome-cucumber", {
+export const cucumber_awesome_cucumber = new github.Repository("cucumber/awesome-cucumber", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1816,7 +1816,7 @@ const cucumber_awesome_cucumber = new github.Repository("cucumber/awesome-cucumb
 }, {
     protect: true,
 });
-const cucumber_create_meta = new github.Repository("cucumber/create-meta", {
+export const cucumber_create_meta = new github.Repository("cucumber/create-meta", {
     allowAutoMerge: true,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1830,7 +1830,7 @@ const cucumber_create_meta = new github.Repository("cucumber/create-meta", {
 }, {
     protect: true,
 });
-const cucumber_github_settings = new github.Repository("cucumber/github-settings", {
+export const cucumber_github_settings = new github.Repository("cucumber/github-settings", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,
@@ -1846,7 +1846,7 @@ const cucumber_github_settings = new github.Repository("cucumber/github-settings
 }, {
     protect: true,
 });
-const cucumber_action_publish_cpan = new github.Repository("cucumber/action-publish-cpan", {
+export const cucumber_action_publish_cpan = new github.Repository("cucumber/action-publish-cpan", {
     allowAutoMerge: false,
     allowMergeCommit: true,
     allowRebaseMerge: true,

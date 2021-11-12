@@ -1,7 +1,7 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as github from "@pulumi/github";
 
-const aruba = new github.Team("aruba", {
+export const aruba = new github.Team("aruba", {
     createDefaultMaintainer: false,
     description: "Core team: Aruba",
     name: "aruba",
@@ -10,7 +10,7 @@ const aruba = new github.Team("aruba", {
 }, {
     protect: true,
 });
-const build = new github.Team("build", {
+export const build = new github.Team("build", {
     createDefaultMaintainer: false,
     description: "People working on the build environment",
     name: "build",
@@ -19,7 +19,7 @@ const build = new github.Team("build", {
 }, {
     protect: true,
 });
-const committers = new github.Team("committers", {
+export const committers = new github.Team("committers", {
     createDefaultMaintainer: false,
     description: "People who can push to most cucumber/* repositories",
     name: "committers",
@@ -27,7 +27,7 @@ const committers = new github.Team("committers", {
 }, {
     protect: true,
 });
-const core = new github.Team("core", {
+export const core = new github.Team("core", {
     createDefaultMaintainer: false,
     description: "Define permissions shared by all core teams",
     name: "core",
@@ -36,7 +36,7 @@ const core = new github.Team("core", {
 }, {
     protect: true,
 });
-const cucumber_android = new github.Team("cucumber-android", {
+export const cucumber_android = new github.Team("cucumber-android", {
     createDefaultMaintainer: false,
     description: "Core Team: Cucumber-Android",
     name: "cucumber-android",
@@ -45,7 +45,7 @@ const cucumber_android = new github.Team("cucumber-android", {
 }, {
     protect: true,
 });
-const cucumber_cpp = new github.Team("cucumber-cpp", {
+export const cucumber_cpp = new github.Team("cucumber-cpp", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber-CPP",
     name: "cucumber-cpp",
@@ -54,7 +54,7 @@ const cucumber_cpp = new github.Team("cucumber-cpp", {
 }, {
     protect: true,
 });
-const cucumber_eclipse = new github.Team("cucumber-eclipse", {
+export const cucumber_eclipse = new github.Team("cucumber-eclipse", {
     createDefaultMaintainer: false,
     description: "Admins for cucumber-eclipse project",
     name: "cucumber-eclipse",
@@ -63,7 +63,7 @@ const cucumber_eclipse = new github.Team("cucumber-eclipse", {
 }, {
     protect: true,
 });
-const cucumber_js = new github.Team("cucumber-js", {
+export const cucumber_js = new github.Team("cucumber-js", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber.js",
     name: "cucumber-js",
@@ -72,7 +72,7 @@ const cucumber_js = new github.Team("cucumber-js", {
 }, {
     protect: true,
 });
-const cucumber_jvm = new github.Team("cucumber-jvm", {
+export const cucumber_jvm = new github.Team("cucumber-jvm", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber-JVM",
     name: "cucumber-jvm",
@@ -81,7 +81,7 @@ const cucumber_jvm = new github.Team("cucumber-jvm", {
 }, {
     protect: true,
 });
-const cucumber_ml = new github.Team("cucumber-ml", {
+export const cucumber_ml = new github.Team("cucumber-ml", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber.ml",
     name: "cucumber-ml",
@@ -90,7 +90,7 @@ const cucumber_ml = new github.Team("cucumber-ml", {
 }, {
     protect: true,
 });
-const cucumber_ruby = new github.Team("cucumber-ruby", {
+export const cucumber_ruby = new github.Team("cucumber-ruby", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber-Ruby",
     name: "cucumber-ruby",
@@ -99,7 +99,7 @@ const cucumber_ruby = new github.Team("cucumber-ruby", {
 }, {
     protect: true,
 });
-const cucumber_ruby_tcl = new github.Team("cucumber-ruby-tcl", {
+export const cucumber_ruby_tcl = new github.Team("cucumber-ruby-tcl", {
     createDefaultMaintainer: false,
     description: "Core team: Cucumber-Ruby TCL",
     name: "cucumber-ruby-tcl",
@@ -108,7 +108,7 @@ const cucumber_ruby_tcl = new github.Team("cucumber-ruby-tcl", {
 }, {
     protect: true,
 });
-const docs = new github.Team("docs", {
+export const docs = new github.Team("docs", {
     createDefaultMaintainer: false,
     description: "Core team for cucumber/docs repo",
     name: "docs",
@@ -117,7 +117,7 @@ const docs = new github.Team("docs", {
 }, {
     protect: true,
 });
-const gherkin = new github.Team("gherkin", {
+export const gherkin = new github.Team("gherkin", {
     createDefaultMaintainer: false,
     description: "Core team: Gherkin",
     name: "gherkin",
@@ -126,7 +126,7 @@ const gherkin = new github.Team("gherkin", {
 }, {
     protect: true,
 });
-const go = new github.Team("go", {
+export const go = new github.Team("go", {
     createDefaultMaintainer: false,
     description: "Core team for godog",
     name: "go",
@@ -135,7 +135,7 @@ const go = new github.Team("go", {
 }, {
     protect: true,
 });
-const release = new github.Team("release", {
+export const release = new github.Team("release", {
     createDefaultMaintainer: false,
     description: "People who can push to release/* branches",
     name: "release",
