@@ -242,6 +242,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "aruba:split-java",
+      "id": "2445010:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "build:cucumber-ruby",
       "id": "4797681:cucumber-ruby"
     },
@@ -522,6 +527,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "build:split-java",
+      "id": "4797681:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:cucumber-ruby",
       "id": "46059:cucumber-ruby"
     },
@@ -744,6 +754,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:create-meta",
       "id": "46059:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "committers:split-java",
+      "id": "46059:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -984,6 +999,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "core:create-meta",
       "id": "2423254:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "core:split-java",
+      "id": "2423254:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1232,6 +1252,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-android:split-java",
+      "id": "2814891:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-cpp:cucumber-ruby",
       "id": "2446646:cucumber-ruby"
     },
@@ -1472,6 +1497,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-cpp:split-java",
+      "id": "2446646:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:cucumber-ruby",
       "id": "4964254:cucumber-ruby"
     },
@@ -1709,6 +1739,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:create-meta",
       "id": "4964254:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-eclipse:split-java",
+      "id": "4964254:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1957,6 +1992,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-js:split-java",
+      "id": "2445014:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-jvm:cucumber-ruby",
       "id": "2372435:cucumber-ruby"
     },
@@ -2197,6 +2237,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-jvm:split-java",
+      "id": "2372435:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ml:cucumber-ruby",
       "id": "2602947:cucumber-ruby"
     },
@@ -2434,6 +2479,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ml:create-meta",
       "id": "2602947:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ml:split-java",
+      "id": "2602947:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -2687,6 +2737,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ruby:split-java",
+      "id": "1970510:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby-tcl:cucumber-ruby",
       "id": "1979610:cucumber-ruby"
     },
@@ -2929,6 +2984,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby-tcl:create-meta",
       "id": "1979610:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ruby-tcl:split-java",
+      "id": "1979610:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3177,6 +3237,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "docs:split-java",
+      "id": "2082625:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "gherkin:cucumber-ruby",
       "id": "1977884:cucumber-ruby"
     },
@@ -3417,6 +3482,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "gherkin:split-java",
+      "id": "1977884:split-java"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "go:cucumber-ruby",
       "id": "4815680:cucumber-ruby"
     },
@@ -3654,6 +3724,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "go:create-meta",
       "id": "4815680:create-meta"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "go:split-java",
+      "id": "4815680:split-java"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3899,6 +3974,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "release:action-publish-cpan",
       "id": "5227827:action-publish-cpan"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "release:split-java",
+      "id": "5227827:split-java"
     }
   ]
 }

@@ -1863,3 +1863,20 @@ export const cucumber_action_publish_cpan = new github.Repository("cucumber/acti
 }, {
     protect: true,
 });
+export const cucumber_split_java = new github.Repository("cucumber/split-java", {
+    allowAutoMerge: false,
+    allowMergeCommit: true,
+    allowRebaseMerge: true,
+    allowSquashMerge: true,
+    archived: false,
+    deleteBranchOnMerge: false,
+    description: "A Cucumber plugin to toggle Split features from Cucumber scenarios",
+    hasDownloads: true,
+    hasIssues: true,
+    hasProjects: true,
+    hasWiki: true,
+    name: "split-java",
+    vulnerabilityAlerts: true,
+}, {
+    protect: true,
+});

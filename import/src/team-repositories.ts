@@ -337,6 +337,13 @@ export const aruba_create_meta = new github.TeamRepository("aruba:create-meta", 
 }, {
     protect: true,
 });
+export const aruba_split_java = new github.TeamRepository("aruba:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
 export const build_cucumber_ruby = new github.TeamRepository("build:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -729,6 +736,13 @@ export const build_create_meta = new github.TeamRepository("build:create-meta", 
 }, {
     protect: true,
 });
+export const build_split_java = new github.TeamRepository("build:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
 export const committers_cucumber_ruby = new github.TeamRepository("committers:cucumber-ruby", {
     permission: "push",
     repository: "cucumber-ruby",
@@ -1040,6 +1054,13 @@ export const committers_monaco = new github.TeamRepository("committers:monaco", 
 export const committers_create_meta = new github.TeamRepository("committers:create-meta", {
     permission: "push",
     repository: "create-meta",
+    teamId: "46059",
+}, {
+    protect: true,
+});
+export const committers_split_java = new github.TeamRepository("committers:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "46059",
 }, {
     protect: true,
@@ -1376,6 +1397,13 @@ export const core_awesome_cucumber = new github.TeamRepository("core:awesome-cuc
 export const core_create_meta = new github.TeamRepository("core:create-meta", {
     permission: "maintain",
     repository: "create-meta",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+export const core_split_java = new github.TeamRepository("core:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "2423254",
 }, {
     protect: true,
@@ -1723,6 +1751,13 @@ export const cucumber_android_create_meta = new github.TeamRepository("cucumber-
 }, {
     protect: true,
 });
+export const cucumber_android_split_java = new github.TeamRepository("cucumber-android:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
 export const cucumber_cpp_cucumber_ruby = new github.TeamRepository("cucumber-cpp:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2059,6 +2094,13 @@ export const cucumber_cpp_create_meta = new github.TeamRepository("cucumber-cpp:
 }, {
     protect: true,
 });
+export const cucumber_cpp_split_java = new github.TeamRepository("cucumber-cpp:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
 export const cucumber_eclipse_cucumber_ruby = new github.TeamRepository("cucumber-eclipse:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -2391,6 +2433,13 @@ export const cucumber_eclipse_awesome_cucumber = new github.TeamRepository("cucu
 export const cucumber_eclipse_create_meta = new github.TeamRepository("cucumber-eclipse:create-meta", {
     permission: "maintain",
     repository: "create-meta",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+export const cucumber_eclipse_split_java = new github.TeamRepository("cucumber-eclipse:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "4964254",
 }, {
     protect: true,
@@ -2738,6 +2787,13 @@ export const cucumber_js_create_meta = new github.TeamRepository("cucumber-js:cr
 }, {
     protect: true,
 });
+export const cucumber_js_split_java = new github.TeamRepository("cucumber-js:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
 export const cucumber_jvm_cucumber_ruby = new github.TeamRepository("cucumber-jvm:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -3074,6 +3130,13 @@ export const cucumber_jvm_create_meta = new github.TeamRepository("cucumber-jvm:
 }, {
     protect: true,
 });
+export const cucumber_jvm_split_java = new github.TeamRepository("cucumber-jvm:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
 export const cucumber_ml_cucumber_ruby = new github.TeamRepository("cucumber-ml:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -3406,6 +3469,13 @@ export const cucumber_ml_awesome_cucumber = new github.TeamRepository("cucumber-
 export const cucumber_ml_create_meta = new github.TeamRepository("cucumber-ml:create-meta", {
     permission: "maintain",
     repository: "create-meta",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+export const cucumber_ml_split_java = new github.TeamRepository("cucumber-ml:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "2602947",
 }, {
     protect: true,
@@ -3760,6 +3830,13 @@ export const cucumber_ruby_create_meta = new github.TeamRepository("cucumber-rub
 }, {
     protect: true,
 });
+export const cucumber_ruby_split_java = new github.TeamRepository("cucumber-ruby:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
 export const cucumber_ruby_tcl_cucumber_ruby = new github.TeamRepository("cucumber-ruby-tcl:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -4099,6 +4176,13 @@ export const cucumber_ruby_tcl_awesome_cucumber = new github.TeamRepository("cuc
 export const cucumber_ruby_tcl_create_meta = new github.TeamRepository("cucumber-ruby-tcl:create-meta", {
     permission: "maintain",
     repository: "create-meta",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+export const cucumber_ruby_tcl_split_java = new github.TeamRepository("cucumber-ruby-tcl:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "1979610",
 }, {
     protect: true,
@@ -4446,6 +4530,13 @@ export const docs_create_meta = new github.TeamRepository("docs:create-meta", {
 }, {
     protect: true,
 });
+export const docs_split_java = new github.TeamRepository("docs:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
 export const gherkin_cucumber_ruby = new github.TeamRepository("gherkin:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -4782,6 +4873,13 @@ export const gherkin_create_meta = new github.TeamRepository("gherkin:create-met
 }, {
     protect: true,
 });
+export const gherkin_split_java = new github.TeamRepository("gherkin:split-java", {
+    permission: "push",
+    repository: "split-java",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
 export const go_cucumber_ruby = new github.TeamRepository("go:cucumber-ruby", {
     permission: "maintain",
     repository: "cucumber-ruby",
@@ -5114,6 +5212,13 @@ export const go_awesome_cucumber = new github.TeamRepository("go:awesome-cucumbe
 export const go_create_meta = new github.TeamRepository("go:create-meta", {
     permission: "maintain",
     repository: "create-meta",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
+export const go_split_java = new github.TeamRepository("go:split-java", {
+    permission: "push",
+    repository: "split-java",
     teamId: "4815680",
 }, {
     protect: true,
@@ -5457,6 +5562,13 @@ export const release_create_meta = new github.TeamRepository("release:create-met
 export const release_action_publish_cpan = new github.TeamRepository("release:action-publish-cpan", {
     permission: "push",
     repository: "action-publish-cpan",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+export const release_split_java = new github.TeamRepository("release:split-java", {
+    permission: "maintain",
+    repository: "split-java",
     teamId: "5227827",
 }, {
     protect: true,

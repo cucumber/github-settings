@@ -564,6 +564,11 @@
       "type": "github:index/repository:Repository",
       "name": "cucumber/action-publish-cpan",
       "id": "action-publish-cpan"
+    },
+    {
+      "type": "github:index/repository:Repository",
+      "name": "cucumber/split-java",
+      "id": "split-java"
     }
   ]
 }

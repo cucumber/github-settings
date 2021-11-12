@@ -24,9 +24,10 @@ import/resources/teams.json:
 import/resources/team-repositories.json:
 	npx ts-node src/getTeamRepositories.ts | jq > $@
 
-import/summary.json: import/src/*
+import/summary.json: import/src/repos.ts import/src/teams.ts import/src/team-repositories.ts
 	pulumi --cwd import preview --json > $@
 
 clean:
 	rm -rf import/resources/*.json
 	rm -rf import/src/*.ts
+	rm -rf import/summary.json
