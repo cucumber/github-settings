@@ -26,7 +26,7 @@ import/resources/team-repositories.json:
 
 import/summary.json: import/src/repos.ts import/src/teams.ts import/src/team-repositories.ts
 	pulumi --cwd import stack init import --non-interactive || pulumi --cwd import stack select import
-	pulumi --cwd import preview --json > $@
+	pulumi --cwd import preview --json --parallel 1 > $@
 
 clean:
 	rm -rf import/resources/*.json
