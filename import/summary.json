@@ -182,6 +182,550 @@
         },
         {
             "op": "update",
+            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+            "oldState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+                "custom": true,
+                "id": "cucumber-jvm",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [
+                        "allowAutoMerge",
+                        "allowMergeCommit",
+                        "allowRebaseMerge",
+                        "allowSquashMerge",
+                        "archived",
+                        "deleteBranchOnMerge",
+                        "name"
+                    ],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": false,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber for the JVM",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "homepageUrl": "https://cucumber.io",
+                    "name": "cucumber-jvm",
+                    "topics": [
+                        null,
+                        null,
+                        "cucumber-jvm"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "outputs": {
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": false,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "autoInit": false,
+                    "defaultBranch": "main",
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber for the JVM",
+                    "etag": "W/\"32a2cc9782922b9f5741ce8da4c0fd6e1abc4181e2872aae967f441461f7f1f3\"",
+                    "fullName": "cucumber/cucumber-jvm",
+                    "gitCloneUrl": "git://github.com/cucumber/cucumber-jvm.git",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "hasWiki": false,
+                    "homepageUrl": "https://cucumber.io",
+                    "htmlUrl": "https://github.com/cucumber/cucumber-jvm",
+                    "httpCloneUrl": "https://github.com/cucumber/cucumber-jvm.git",
+                    "id": "cucumber-jvm",
+                    "isTemplate": false,
+                    "name": "cucumber-jvm",
+                    "nodeId": "MDEwOlJlcG9zaXRvcnkxOTYyMjE5",
+                    "private": false,
+                    "repoId": 1962219,
+                    "sshCloneUrl": "git@github.com:cucumber/cucumber-jvm.git",
+                    "svnUrl": "https://github.com/cucumber/cucumber-jvm",
+                    "template": null,
+                    "topics": [
+                        "hacktoberfest",
+                        "java",
+                        "cucumber-jvm"
+                    ],
+                    "visibility": "public",
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
+            },
+            "newState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+                "custom": true,
+                "id": "cucumber-jvm",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": false,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber for the JVM",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "homepageUrl": "https://cucumber.io",
+                    "name": "cucumber-jvm",
+                    "topics": [
+                        null,
+                        null,
+                        "cucumber-jvm"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+                "propertyDependencies": {
+                    "allowAutoMerge": null,
+                    "allowMergeCommit": null,
+                    "allowRebaseMerge": null,
+                    "allowSquashMerge": null,
+                    "archived": null,
+                    "deleteBranchOnMerge": null,
+                    "description": null,
+                    "hasDownloads": null,
+                    "hasIssues": null,
+                    "hasProjects": null,
+                    "homepageUrl": null,
+                    "name": null,
+                    "topics": null,
+                    "vulnerabilityAlerts": null
+                }
+            },
+            "diffReasons": [
+                "topics",
+                "topics"
+            ],
+            "detailedDiff": {
+                "topics[0]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                },
+                "topics[1]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                }
+            }
+        },
+        {
+            "op": "update",
+            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
+            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+            "oldState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
+                "custom": true,
+                "id": "common",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [
+                        "allowAutoMerge",
+                        "allowMergeCommit",
+                        "allowRebaseMerge",
+                        "allowSquashMerge",
+                        "archived",
+                        "deleteBranchOnMerge",
+                        "name"
+                    ],
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "homepageUrl": "https://cucumber.io/docs",
+                    "name": "common",
+                    "topics": [
+                        null,
+                        "bdd-framework"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "outputs": {
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "autoInit": false,
+                    "defaultBranch": "main",
+                    "deleteBranchOnMerge": true,
+                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
+                    "etag": "W/\"2a913a984a6a69898e1f9cd20f61590f855fe449e33ee9ad1b8141acd281d97c\"",
+                    "fullName": "cucumber/common",
+                    "gitCloneUrl": "git://github.com/cucumber/common.git",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": false,
+                    "hasWiki": false,
+                    "homepageUrl": "https://cucumber.io/docs",
+                    "htmlUrl": "https://github.com/cucumber/common",
+                    "httpCloneUrl": "https://github.com/cucumber/common.git",
+                    "id": "common",
+                    "isTemplate": false,
+                    "name": "common",
+                    "nodeId": "MDEwOlJlcG9zaXRvcnkzNzc5NjY5Ng==",
+                    "private": false,
+                    "repoId": 37796696,
+                    "sshCloneUrl": "git@github.com:cucumber/common.git",
+                    "svnUrl": "https://github.com/cucumber/common",
+                    "template": null,
+                    "topics": [
+                        "hacktoberfest",
+                        "bdd-framework"
+                    ],
+                    "visibility": "public",
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
+            },
+            "newState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
+                "custom": true,
+                "id": "common",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [],
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "homepageUrl": "https://cucumber.io/docs",
+                    "name": "common",
+                    "topics": [
+                        null,
+                        "bdd-framework"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+                "propertyDependencies": {
+                    "allowAutoMerge": null,
+                    "allowMergeCommit": null,
+                    "allowRebaseMerge": null,
+                    "allowSquashMerge": null,
+                    "archived": null,
+                    "deleteBranchOnMerge": null,
+                    "description": null,
+                    "hasDownloads": null,
+                    "hasIssues": null,
+                    "homepageUrl": null,
+                    "name": null,
+                    "topics": null,
+                    "vulnerabilityAlerts": null
+                }
+            },
+            "diffReasons": [
+                "topics"
+            ],
+            "detailedDiff": {
+                "topics[0]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                }
+            }
+        },
+        {
+            "op": "update",
+            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
+            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+            "oldState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
+                "custom": true,
+                "id": "docs",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [
+                        "allowAutoMerge",
+                        "allowMergeCommit",
+                        "allowRebaseMerge",
+                        "allowSquashMerge",
+                        "archived",
+                        "deleteBranchOnMerge",
+                        "name"
+                    ],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber user documentation",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "homepageUrl": "https://cucumber.io/docs/installation/",
+                    "name": "docs",
+                    "topics": [
+                        "gherkin",
+                        "bdd",
+                        null,
+                        "docs"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "outputs": {
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "autoInit": false,
+                    "defaultBranch": "main",
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber user documentation",
+                    "etag": "W/\"95549a21e44408f401f07152d468fc170650264b321d8cb64184bf2f60068a1a\"",
+                    "fullName": "cucumber/docs",
+                    "gitCloneUrl": "git://github.com/cucumber/docs.git",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "hasWiki": false,
+                    "homepageUrl": "https://cucumber.io/docs/installation/",
+                    "htmlUrl": "https://github.com/cucumber/docs",
+                    "httpCloneUrl": "https://github.com/cucumber/docs.git",
+                    "id": "docs",
+                    "isTemplate": false,
+                    "name": "docs",
+                    "nodeId": "MDEwOlJlcG9zaXRvcnk5MTEzNTQyMw==",
+                    "private": false,
+                    "repoId": 91135423,
+                    "sshCloneUrl": "git@github.com:cucumber/docs.git",
+                    "svnUrl": "https://github.com/cucumber/docs",
+                    "template": null,
+                    "topics": [
+                        "gherkin",
+                        "bdd",
+                        "cucumber",
+                        "docs"
+                    ],
+                    "visibility": "public",
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
+            },
+            "newState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
+                "custom": true,
+                "id": "docs",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": true,
+                    "allowSquashMerge": true,
+                    "archived": false,
+                    "deleteBranchOnMerge": true,
+                    "description": "Cucumber user documentation",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "homepageUrl": "https://cucumber.io/docs/installation/",
+                    "name": "docs",
+                    "topics": [
+                        "gherkin",
+                        "bdd",
+                        null,
+                        "docs"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+                "propertyDependencies": {
+                    "allowAutoMerge": null,
+                    "allowMergeCommit": null,
+                    "allowRebaseMerge": null,
+                    "allowSquashMerge": null,
+                    "archived": null,
+                    "deleteBranchOnMerge": null,
+                    "description": null,
+                    "hasDownloads": null,
+                    "hasIssues": null,
+                    "hasProjects": null,
+                    "homepageUrl": null,
+                    "name": null,
+                    "topics": null,
+                    "vulnerabilityAlerts": null
+                }
+            },
+            "diffReasons": [
+                "topics"
+            ],
+            "detailedDiff": {
+                "topics[2]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                }
+            }
+        },
+        {
+            "op": "update",
+            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
+            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+            "oldState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
+                "custom": true,
+                "id": "aruba",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [
+                        "allowAutoMerge",
+                        "allowMergeCommit",
+                        "allowRebaseMerge",
+                        "allowSquashMerge",
+                        "archived",
+                        "deleteBranchOnMerge",
+                        "name"
+                    ],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": false,
+                    "archived": false,
+                    "deleteBranchOnMerge": false,
+                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "name": "aruba",
+                    "topics": [
+                        null,
+                        null,
+                        "tdd"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "outputs": {
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": false,
+                    "archived": false,
+                    "autoInit": false,
+                    "defaultBranch": "main",
+                    "deleteBranchOnMerge": false,
+                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
+                    "etag": "W/\"40a38e60fbf71c3cc7ac88a82524f5cbf9e9900c5d77d2e0e59318e22c2ec9e5\"",
+                    "fullName": "cucumber/aruba",
+                    "gitCloneUrl": "git://github.com/cucumber/aruba.git",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "hasWiki": false,
+                    "homepageUrl": "",
+                    "htmlUrl": "https://github.com/cucumber/aruba",
+                    "httpCloneUrl": "https://github.com/cucumber/aruba.git",
+                    "id": "aruba",
+                    "isTemplate": false,
+                    "name": "aruba",
+                    "nodeId": "MDEwOlJlcG9zaXRvcnk1MTU1ODU=",
+                    "private": false,
+                    "repoId": 515585,
+                    "sshCloneUrl": "git@github.com:cucumber/aruba.git",
+                    "svnUrl": "https://github.com/cucumber/aruba",
+                    "template": null,
+                    "topics": [
+                        "bdd",
+                        "shell",
+                        "tdd"
+                    ],
+                    "visibility": "public",
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
+            },
+            "newState": {
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
+                "custom": true,
+                "id": "aruba",
+                "type": "github:index/repository:Repository",
+                "inputs": {
+                    "__defaults": [],
+                    "allowAutoMerge": false,
+                    "allowMergeCommit": true,
+                    "allowRebaseMerge": false,
+                    "allowSquashMerge": false,
+                    "archived": false,
+                    "deleteBranchOnMerge": false,
+                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
+                    "hasDownloads": true,
+                    "hasIssues": true,
+                    "hasProjects": true,
+                    "name": "aruba",
+                    "topics": [
+                        null,
+                        null,
+                        "tdd"
+                    ],
+                    "vulnerabilityAlerts": true
+                },
+                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
+                "protect": true,
+                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
+                "propertyDependencies": {
+                    "allowAutoMerge": null,
+                    "allowMergeCommit": null,
+                    "allowRebaseMerge": null,
+                    "allowSquashMerge": null,
+                    "archived": null,
+                    "deleteBranchOnMerge": null,
+                    "description": null,
+                    "hasDownloads": null,
+                    "hasIssues": null,
+                    "hasProjects": null,
+                    "name": null,
+                    "topics": null,
+                    "vulnerabilityAlerts": null
+                }
+            },
+            "diffReasons": [
+                "topics",
+                "topics"
+            ],
+            "detailedDiff": {
+                "topics[0]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                },
+                "topics[1]": {
+                    "kind": "delete",
+                    "inputDiff": false
+                }
+            }
+        },
+        {
+            "op": "update",
             "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/monaco",
             "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
             "oldState": {
@@ -326,12 +870,12 @@
         },
         {
             "op": "update",
-            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
             "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
             "oldState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
                 "custom": true,
-                "id": "cucumber-jvm",
+                "id": "cucumber-expressions",
                 "type": "github:index/repository:Repository",
                 "inputs": {
                     "__defaults": [
@@ -343,59 +887,64 @@
                         "deleteBranchOnMerge",
                         "name"
                     ],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": false,
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
                     "allowRebaseMerge": false,
                     "allowSquashMerge": true,
                     "archived": false,
                     "deleteBranchOnMerge": true,
-                    "description": "Cucumber for the JVM",
+                    "description": "Human friendly alternative to Regular Expressions",
                     "hasDownloads": true,
                     "hasIssues": true,
-                    "hasProjects": true,
-                    "homepageUrl": "https://cucumber.io",
-                    "name": "cucumber-jvm",
-                    "topics": [
-                        null,
-                        null,
-                        "cucumber-jvm"
-                    ],
+                    "name": "cucumber-expressions",
+                    "pages": {
+                        "source": {
+                            "branch": "main"
+                        }
+                    },
                     "vulnerabilityAlerts": true
                 },
                 "outputs": {
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": false,
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
                     "allowRebaseMerge": false,
                     "allowSquashMerge": true,
                     "archived": false,
                     "autoInit": false,
                     "defaultBranch": "main",
                     "deleteBranchOnMerge": true,
-                    "description": "Cucumber for the JVM",
-                    "etag": "W/\"32a2cc9782922b9f5741ce8da4c0fd6e1abc4181e2872aae967f441461f7f1f3\"",
-                    "fullName": "cucumber/cucumber-jvm",
-                    "gitCloneUrl": "git://github.com/cucumber/cucumber-jvm.git",
+                    "description": "Human friendly alternative to Regular Expressions",
+                    "etag": "W/\"d68aeeaef21fd9d827bf9a8425ee55f990eea85bf06bac12488e37a509457305\"",
+                    "fullName": "cucumber/cucumber-expressions",
+                    "gitCloneUrl": "git://github.com/cucumber/cucumber-expressions.git",
                     "hasDownloads": true,
                     "hasIssues": true,
-                    "hasProjects": true,
+                    "hasProjects": false,
                     "hasWiki": false,
-                    "homepageUrl": "https://cucumber.io",
-                    "htmlUrl": "https://github.com/cucumber/cucumber-jvm",
-                    "httpCloneUrl": "https://github.com/cucumber/cucumber-jvm.git",
-                    "id": "cucumber-jvm",
+                    "homepageUrl": "",
+                    "htmlUrl": "https://github.com/cucumber/cucumber-expressions",
+                    "httpCloneUrl": "https://github.com/cucumber/cucumber-expressions.git",
+                    "id": "cucumber-expressions",
                     "isTemplate": false,
-                    "name": "cucumber-jvm",
-                    "nodeId": "MDEwOlJlcG9zaXRvcnkxOTYyMjE5",
+                    "name": "cucumber-expressions",
+                    "nodeId": "MDEwOlJlcG9zaXRvcnk0MDgzNzIxNTQ=",
+                    "pages": {
+                        "cname": "",
+                        "custom404": false,
+                        "htmlUrl": "https://cucumber.github.io/cucumber-expressions/",
+                        "source": {
+                            "branch": "main",
+                            "path": "/docs"
+                        },
+                        "status": "built",
+                        "url": "https://api.github.com/repos/cucumber/cucumber-expressions/pages"
+                    },
                     "private": false,
-                    "repoId": 1962219,
-                    "sshCloneUrl": "git@github.com:cucumber/cucumber-jvm.git",
-                    "svnUrl": "https://github.com/cucumber/cucumber-jvm",
+                    "repoId": 408372154,
+                    "sshCloneUrl": "git@github.com:cucumber/cucumber-expressions.git",
+                    "svnUrl": "https://github.com/cucumber/cucumber-expressions",
                     "template": null,
-                    "topics": [
-                        "hacktoberfest",
-                        "java",
-                        "cucumber-jvm"
-                    ],
+                    "topics": [],
                     "visibility": "public",
                     "vulnerabilityAlerts": true
                 },
@@ -404,29 +953,32 @@
                 "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
             },
             "newState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-jvm",
+                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
                 "custom": true,
-                "id": "cucumber-jvm",
+                "id": "cucumber-expressions",
                 "type": "github:index/repository:Repository",
                 "inputs": {
                     "__defaults": [],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": false,
+                    "allowAutoMerge": true,
+                    "allowMergeCommit": true,
                     "allowRebaseMerge": false,
                     "allowSquashMerge": true,
                     "archived": false,
                     "deleteBranchOnMerge": true,
-                    "description": "Cucumber for the JVM",
+                    "description": "Human friendly alternative to Regular Expressions",
                     "hasDownloads": true,
                     "hasIssues": true,
-                    "hasProjects": true,
-                    "homepageUrl": "https://cucumber.io",
-                    "name": "cucumber-jvm",
-                    "topics": [
-                        null,
-                        null,
-                        "cucumber-jvm"
-                    ],
+                    "name": "cucumber-expressions",
+                    "pages": {
+                        "__defaults": [],
+                        "source": {
+                            "__defaults": [
+                                "path"
+                            ],
+                            "branch": "main",
+                            "path": "/"
+                        }
+                    },
                     "vulnerabilityAlerts": true
                 },
                 "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
@@ -442,24 +994,17 @@
                     "description": null,
                     "hasDownloads": null,
                     "hasIssues": null,
-                    "hasProjects": null,
-                    "homepageUrl": null,
                     "name": null,
-                    "topics": null,
+                    "pages": null,
                     "vulnerabilityAlerts": null
                 }
             },
             "diffReasons": [
-                "topics",
-                "topics"
+                "pages"
             ],
             "detailedDiff": {
-                "topics[0]": {
-                    "kind": "delete",
-                    "inputDiff": false
-                },
-                "topics[1]": {
-                    "kind": "delete",
+                "pages.source.path": {
+                    "kind": "update",
                     "inputDiff": false
                 }
             }
@@ -625,554 +1170,9 @@
                     "inputDiff": false
                 }
             }
-        },
-        {
-            "op": "update",
-            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
-            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-            "oldState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
-                "custom": true,
-                "id": "cucumber-expressions",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [
-                        "allowAutoMerge",
-                        "allowMergeCommit",
-                        "allowRebaseMerge",
-                        "allowSquashMerge",
-                        "archived",
-                        "deleteBranchOnMerge",
-                        "name"
-                    ],
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "Human friendly alternative to Regular Expressions",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "name": "cucumber-expressions",
-                    "pages": {
-                        "source": {
-                            "branch": "main"
-                        }
-                    },
-                    "vulnerabilityAlerts": true
-                },
-                "outputs": {
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "autoInit": false,
-                    "defaultBranch": "main",
-                    "deleteBranchOnMerge": true,
-                    "description": "Human friendly alternative to Regular Expressions",
-                    "etag": "W/\"d68aeeaef21fd9d827bf9a8425ee55f990eea85bf06bac12488e37a509457305\"",
-                    "fullName": "cucumber/cucumber-expressions",
-                    "gitCloneUrl": "git://github.com/cucumber/cucumber-expressions.git",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": false,
-                    "hasWiki": false,
-                    "homepageUrl": "",
-                    "htmlUrl": "https://github.com/cucumber/cucumber-expressions",
-                    "httpCloneUrl": "https://github.com/cucumber/cucumber-expressions.git",
-                    "id": "cucumber-expressions",
-                    "isTemplate": false,
-                    "name": "cucumber-expressions",
-                    "nodeId": "MDEwOlJlcG9zaXRvcnk0MDgzNzIxNTQ=",
-                    "pages": {
-                        "cname": "",
-                        "custom404": false,
-                        "htmlUrl": "https://cucumber.github.io/cucumber-expressions/",
-                        "source": {
-                            "branch": "main",
-                            "path": "/docs"
-                        },
-                        "status": "built",
-                        "url": "https://api.github.com/repos/cucumber/cucumber-expressions/pages"
-                    },
-                    "private": false,
-                    "repoId": 408372154,
-                    "sshCloneUrl": "git@github.com:cucumber/cucumber-expressions.git",
-                    "svnUrl": "https://github.com/cucumber/cucumber-expressions",
-                    "template": null,
-                    "topics": [],
-                    "visibility": "public",
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
-            },
-            "newState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-expressions",
-                "custom": true,
-                "id": "cucumber-expressions",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [],
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "Human friendly alternative to Regular Expressions",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "name": "cucumber-expressions",
-                    "pages": {
-                        "__defaults": [],
-                        "source": {
-                            "__defaults": [
-                                "path"
-                            ],
-                            "branch": "main",
-                            "path": "/"
-                        }
-                    },
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-                "propertyDependencies": {
-                    "allowAutoMerge": null,
-                    "allowMergeCommit": null,
-                    "allowRebaseMerge": null,
-                    "allowSquashMerge": null,
-                    "archived": null,
-                    "deleteBranchOnMerge": null,
-                    "description": null,
-                    "hasDownloads": null,
-                    "hasIssues": null,
-                    "name": null,
-                    "pages": null,
-                    "vulnerabilityAlerts": null
-                }
-            },
-            "diffReasons": [
-                "pages"
-            ],
-            "detailedDiff": {
-                "pages.source.path": {
-                    "kind": "update",
-                    "inputDiff": false
-                }
-            }
-        },
-        {
-            "op": "update",
-            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
-            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-            "oldState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
-                "custom": true,
-                "id": "common",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [
-                        "allowAutoMerge",
-                        "allowMergeCommit",
-                        "allowRebaseMerge",
-                        "allowSquashMerge",
-                        "archived",
-                        "deleteBranchOnMerge",
-                        "name"
-                    ],
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "homepageUrl": "https://cucumber.io/docs",
-                    "name": "common",
-                    "topics": [
-                        null,
-                        "bdd-framework"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "outputs": {
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "autoInit": false,
-                    "defaultBranch": "main",
-                    "deleteBranchOnMerge": true,
-                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
-                    "etag": "W/\"2a913a984a6a69898e1f9cd20f61590f855fe449e33ee9ad1b8141acd281d97c\"",
-                    "fullName": "cucumber/common",
-                    "gitCloneUrl": "git://github.com/cucumber/common.git",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": false,
-                    "hasWiki": false,
-                    "homepageUrl": "https://cucumber.io/docs",
-                    "htmlUrl": "https://github.com/cucumber/common",
-                    "httpCloneUrl": "https://github.com/cucumber/common.git",
-                    "id": "common",
-                    "isTemplate": false,
-                    "name": "common",
-                    "nodeId": "MDEwOlJlcG9zaXRvcnkzNzc5NjY5Ng==",
-                    "private": false,
-                    "repoId": 37796696,
-                    "sshCloneUrl": "git@github.com:cucumber/common.git",
-                    "svnUrl": "https://github.com/cucumber/common",
-                    "template": null,
-                    "topics": [
-                        "hacktoberfest",
-                        "bdd-framework"
-                    ],
-                    "visibility": "public",
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
-            },
-            "newState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/common",
-                "custom": true,
-                "id": "common",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [],
-                    "allowAutoMerge": true,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "A monorepo of common components - building blocks for implementing Cucumber in various languages.",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "homepageUrl": "https://cucumber.io/docs",
-                    "name": "common",
-                    "topics": [
-                        null,
-                        "bdd-framework"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-                "propertyDependencies": {
-                    "allowAutoMerge": null,
-                    "allowMergeCommit": null,
-                    "allowRebaseMerge": null,
-                    "allowSquashMerge": null,
-                    "archived": null,
-                    "deleteBranchOnMerge": null,
-                    "description": null,
-                    "hasDownloads": null,
-                    "hasIssues": null,
-                    "homepageUrl": null,
-                    "name": null,
-                    "topics": null,
-                    "vulnerabilityAlerts": null
-                }
-            },
-            "diffReasons": [
-                "topics"
-            ],
-            "detailedDiff": {
-                "topics[0]": {
-                    "kind": "delete",
-                    "inputDiff": false
-                }
-            }
-        },
-        {
-            "op": "update",
-            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
-            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-            "oldState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
-                "custom": true,
-                "id": "aruba",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [
-                        "allowAutoMerge",
-                        "allowMergeCommit",
-                        "allowRebaseMerge",
-                        "allowSquashMerge",
-                        "archived",
-                        "deleteBranchOnMerge",
-                        "name"
-                    ],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": false,
-                    "archived": false,
-                    "deleteBranchOnMerge": false,
-                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "name": "aruba",
-                    "topics": [
-                        null,
-                        null,
-                        "tdd"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "outputs": {
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": false,
-                    "archived": false,
-                    "autoInit": false,
-                    "defaultBranch": "main",
-                    "deleteBranchOnMerge": false,
-                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
-                    "etag": "W/\"40a38e60fbf71c3cc7ac88a82524f5cbf9e9900c5d77d2e0e59318e22c2ec9e5\"",
-                    "fullName": "cucumber/aruba",
-                    "gitCloneUrl": "git://github.com/cucumber/aruba.git",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "hasWiki": false,
-                    "homepageUrl": "",
-                    "htmlUrl": "https://github.com/cucumber/aruba",
-                    "httpCloneUrl": "https://github.com/cucumber/aruba.git",
-                    "id": "aruba",
-                    "isTemplate": false,
-                    "name": "aruba",
-                    "nodeId": "MDEwOlJlcG9zaXRvcnk1MTU1ODU=",
-                    "private": false,
-                    "repoId": 515585,
-                    "sshCloneUrl": "git@github.com:cucumber/aruba.git",
-                    "svnUrl": "https://github.com/cucumber/aruba",
-                    "template": null,
-                    "topics": [
-                        "bdd",
-                        "shell",
-                        "tdd"
-                    ],
-                    "visibility": "public",
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
-            },
-            "newState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/aruba",
-                "custom": true,
-                "id": "aruba",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": false,
-                    "allowSquashMerge": false,
-                    "archived": false,
-                    "deleteBranchOnMerge": false,
-                    "description": "Test command-line applications with Cucumber-Ruby, RSpec or Minitest.",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "name": "aruba",
-                    "topics": [
-                        null,
-                        null,
-                        "tdd"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-                "propertyDependencies": {
-                    "allowAutoMerge": null,
-                    "allowMergeCommit": null,
-                    "allowRebaseMerge": null,
-                    "allowSquashMerge": null,
-                    "archived": null,
-                    "deleteBranchOnMerge": null,
-                    "description": null,
-                    "hasDownloads": null,
-                    "hasIssues": null,
-                    "hasProjects": null,
-                    "name": null,
-                    "topics": null,
-                    "vulnerabilityAlerts": null
-                }
-            },
-            "diffReasons": [
-                "topics",
-                "topics"
-            ],
-            "detailedDiff": {
-                "topics[0]": {
-                    "kind": "delete",
-                    "inputDiff": false
-                },
-                "topics[1]": {
-                    "kind": "delete",
-                    "inputDiff": false
-                }
-            }
-        },
-        {
-            "op": "update",
-            "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
-            "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-            "oldState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
-                "custom": true,
-                "id": "docs",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [
-                        "allowAutoMerge",
-                        "allowMergeCommit",
-                        "allowRebaseMerge",
-                        "allowSquashMerge",
-                        "archived",
-                        "deleteBranchOnMerge",
-                        "name"
-                    ],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "Cucumber user documentation",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "homepageUrl": "https://cucumber.io/docs/installation/",
-                    "name": "docs",
-                    "topics": [
-                        "gherkin",
-                        "bdd",
-                        null,
-                        "docs"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "outputs": {
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "autoInit": false,
-                    "defaultBranch": "main",
-                    "deleteBranchOnMerge": true,
-                    "description": "Cucumber user documentation",
-                    "etag": "W/\"95549a21e44408f401f07152d468fc170650264b321d8cb64184bf2f60068a1a\"",
-                    "fullName": "cucumber/docs",
-                    "gitCloneUrl": "git://github.com/cucumber/docs.git",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "hasWiki": false,
-                    "homepageUrl": "https://cucumber.io/docs/installation/",
-                    "htmlUrl": "https://github.com/cucumber/docs",
-                    "httpCloneUrl": "https://github.com/cucumber/docs.git",
-                    "id": "docs",
-                    "isTemplate": false,
-                    "name": "docs",
-                    "nodeId": "MDEwOlJlcG9zaXRvcnk5MTEzNTQyMw==",
-                    "private": false,
-                    "repoId": 91135423,
-                    "sshCloneUrl": "git@github.com:cucumber/docs.git",
-                    "svnUrl": "https://github.com/cucumber/docs",
-                    "template": null,
-                    "topics": [
-                        "gherkin",
-                        "bdd",
-                        "cucumber",
-                        "docs"
-                    ],
-                    "visibility": "public",
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977"
-            },
-            "newState": {
-                "urn": "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/docs",
-                "custom": true,
-                "id": "docs",
-                "type": "github:index/repository:Repository",
-                "inputs": {
-                    "__defaults": [],
-                    "allowAutoMerge": false,
-                    "allowMergeCommit": true,
-                    "allowRebaseMerge": true,
-                    "allowSquashMerge": true,
-                    "archived": false,
-                    "deleteBranchOnMerge": true,
-                    "description": "Cucumber user documentation",
-                    "hasDownloads": true,
-                    "hasIssues": true,
-                    "hasProjects": true,
-                    "homepageUrl": "https://cucumber.io/docs/installation/",
-                    "name": "docs",
-                    "topics": [
-                        "gherkin",
-                        "bdd",
-                        null,
-                        "docs"
-                    ],
-                    "vulnerabilityAlerts": true
-                },
-                "parent": "urn:pulumi:import::github-settings::pulumi:pulumi:Stack::github-settings-import",
-                "protect": true,
-                "provider": "urn:pulumi:import::github-settings::pulumi:providers:github::default_4_6_0::a2c71284-7198-4b98-a0fb-0cd82bdaa977",
-                "propertyDependencies": {
-                    "allowAutoMerge": null,
-                    "allowMergeCommit": null,
-                    "allowRebaseMerge": null,
-                    "allowSquashMerge": null,
-                    "archived": null,
-                    "deleteBranchOnMerge": null,
-                    "description": null,
-                    "hasDownloads": null,
-                    "hasIssues": null,
-                    "hasProjects": null,
-                    "homepageUrl": null,
-                    "name": null,
-                    "topics": null,
-                    "vulnerabilityAlerts": null
-                }
-            },
-            "diffReasons": [
-                "topics"
-            ],
-            "detailedDiff": {
-                "topics[2]": {
-                    "kind": "delete",
-                    "inputDiff": false
-                }
-            }
         }
     ],
-    "duration": 8934946959,
+    "duration": 7338753167,
     "changeSummary": {
         "same": 919,
         "update": 8

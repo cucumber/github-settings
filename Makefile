@@ -25,6 +25,7 @@ import/resources/team-repositories.json:
 	npx ts-node src/getTeamRepositories.ts | jq > $@
 
 import/summary.json: import/src/repos.ts import/src/teams.ts import/src/team-repositories.ts
+	pulumi --cwd import stack init import --non-interactive || pulumi --cwd import stack select import
 	pulumi --cwd import preview --json > $@
 
 clean:
