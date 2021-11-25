@@ -1,95 +1,349 @@
 Previewing update (import):
 
     pulumi:pulumi:Stack github-settings-import running 
-    github:index:TeamRepository release:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository build:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository aruba:cucumber-ruby  [diff: ~__defaults]
-    github:index:Team aruba  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-ruby-wire  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-eclipse:cucumber-ruby  [diff: ~__defaults]
-    github:index:Team build  [diff: ~__defaults]
-    github:index:TeamRepository docs:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository go:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository aruba:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository docs:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team committers  [diff: ~__defaults]
-    github:index:TeamRepository docs:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository release:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository committers:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository release:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository gherkin:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository gherkin:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-tcl  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-jvm:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team core  [diff: ~__defaults]
-    github:index:TeamRepository gherkin:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ml:cucumber-js  [diff: ~__defaults]
-    github:index:Team cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-eclipse:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository gherkin:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository core:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository go:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository go:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ml:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-android:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ml:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-cpp:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository docs:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository build:cucumber-ruby-core  [diff: ~__defaults]
     github:index:Team gherkin  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl  [diff: ~__defaults]
-    github:index:TeamRepository committers:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-js  [diff: ~__defaults]
-    github:index:Team docs  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-js:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository core:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ml:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository build:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-eclipse:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-cpp:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-cpp:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository core:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository committers:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-js:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-js:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-android:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository aruba:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team go  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-jvm:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-cpp:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-js:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository core:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:TeamRepository aruba:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository committers:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team cucumber-ml  [diff: ~__defaults]
-    github:index:Team cucumber-eclipse  [diff: ~__defaults]
-    github:index:TeamRepository go:cucumber-ruby-meta  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-android:cucumber-ruby-core  [diff: ~__defaults]
-    github:index:Team cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:Team core  [diff: ~__defaults]
+    github:index:Team aruba  [diff: ~__defaults]
     github:index:Team cucumber-android  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-jvm:cucumber-ruby  [diff: ~__defaults]
-    github:index:TeamRepository release:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-android:cucumber-ruby-meta  [diff: ~__defaults]
     github:index:Team cucumber-jvm  [diff: ~__defaults]
+    github:index:Team cucumber-ml  [diff: ~__defaults]
+    github:index:TeamRepository release:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-jvm:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository gherkin:cucumber-js  [diff: ~__defaults]
     github:index:TeamRepository build:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-js  [diff: ~__defaults]
     github:index:Team release  [diff: ~__defaults]
     github:index:Team cucumber-cpp  [diff: ~__defaults]
-    pulumi:pulumi:Stack github-settings-import  
+    github:index:Team cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-eclipse  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-ruby  [diff: ~__defaults]
+    github:index:Team docs  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-js  [diff: ~__defaults]
+    github:index:Team committers  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-android:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository core:cucumber-js  [diff: ~__defaults]
+    github:index:Team go  [diff: ~__defaults]
+    github:index:Team build  [diff: ~__defaults]
+    github:index:Repository cucumber/cucumber-js  [diff: ~__defaults,pages]
+    github:index:Team cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:TeamRepository aruba:cucumber-js  [diff: ~__defaults]
+ -  github:index:TeamRepository release:cucumber-ruby-core delete 
+ -  github:index:TeamRepository build:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete 
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete 
+ -  github:index:TeamRepository aruba:cucumber-ruby delete 
+ -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository go:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository gherkin:cucumber-ruby-core delete 
+ -  github:index:TeamRepository build:cucumber-ruby delete 
+ -  github:index:TeamRepository committers:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository core:cucumber-ruby delete 
+ -  github:index:TeamRepository aruba:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
+ -  github:index:TeamRepository release:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
+ -  github:index:TeamRepository gherkin:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
+ -  github:index:TeamRepository committers:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
+ -  github:index:TeamRepository build:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
+ -  github:index:TeamRepository build:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete 
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository build:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
+ -  github:index:TeamRepository go:cucumber-ruby-core delete 
+ -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository committers:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete 
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete 
+ -  github:index:TeamRepository go:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
+ -  github:index:TeamRepository docs:cucumber-ruby delete 
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
+ -  github:index:TeamRepository aruba:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
+ -  github:index:TeamRepository core:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository core:cucumber-ruby-meta delete 
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
+ -  github:index:TeamRepository aruba:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete 
+ -  github:index:TeamRepository build:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
+ -  github:index:TeamRepository go:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
+ -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
+ -  github:index:TeamRepository docs:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
+ -  github:index:TeamRepository core:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
+ -  github:index:TeamRepository committers:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
+ -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
+    pulumi:pulumi:Stack github-settings-import running error: preview failed
+ -  github:index:TeamRepository build:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository aruba:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository build:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository committers:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository release:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository core:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete 1 error
+ -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository docs:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository core:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository committers:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository aruba:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete 1 error
+ -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete 1 error
+    pulumi:pulumi:Stack github-settings-import  1 error
+ -  github:index:TeamRepository go:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository build:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete 1 error
+ -  github:index:TeamRepository go:cucumber-ruby-meta delete 1 error
+ -  github:index:TeamRepository gherkin:cucumber-ruby-core delete 1 error
+ 
+Diagnostics:
+  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-tcl):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl'`
+ 
+  github:index:TeamRepository (cucumber-js:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (cucumber-ml:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (cucumber-ml:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (docs:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby'`
+ 
+  github:index:TeamRepository (core:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (gherkin:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (cucumber-cpp:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby'`
+ 
+  github:index:TeamRepository (cucumber-android:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (committers:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (aruba:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta'`
+ 
+  pulumi:pulumi:Stack (github-settings-import):
+    error: preview failed
+ 
+  github:index:TeamRepository (cucumber-jvm:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby'`
+ 
+  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby'`
+ 
+  github:index:TeamRepository (cucumber-jvm:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (go:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (go:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (gherkin:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (build:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (cucumber-jvm:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (build:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby'`
+ 
+  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (build:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (aruba:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby'`
+ 
+  github:index:TeamRepository (cucumber-cpp:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (committers:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (release:cucumber-ruby-core):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core'`
+ 
+  github:index:TeamRepository (cucumber-eclipse:cucumber-ruby-meta):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta'`
+ 
+  github:index:TeamRepository (core:cucumber-ruby):
+    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
+    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
+    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby'`
  
 Outputs:
-  + repos       : {}
+  + repos       : {
+      + cucumber_cucumber_js: {
+          + allowAutoMerge     : false
+          + allowMergeCommit   : false
+          + allowRebaseMerge   : false
+          + allowSquashMerge   : true
+          + archiveOnDestroy   : output<string>
+          + archived           : false
+          + autoInit           : false
+          + defaultBranch      : "main"
+          + deleteBranchOnMerge: true
+          + description        : "Cucumber for JavaScript"
+          + etag               : "W/\"afaa79d9924727e280e61c35c342bbf740607ed73b5684ae2bae5970039bc2d7\""
+          + fullName           : "cucumber/cucumber-js"
+          + gitCloneUrl        : "git://github.com/cucumber/cucumber-js.git"
+          + gitignoreTemplate  : output<string>
+          + hasDownloads       : true
+          + hasIssues          : true
+          + hasProjects        : true
+          + hasWiki            : false
+          + homepageUrl        : "https://cucumber.io"
+          + htmlUrl            : "https://github.com/cucumber/cucumber-js"
+          + httpCloneUrl       : "https://github.com/cucumber/cucumber-js.git"
+          + id                 : "cucumber-js"
+          + isTemplate         : false
+          + licenseTemplate    : output<string>
+          + name               : "cucumber-js"
+          + nodeId             : "MDEwOlJlcG9zaXRvcnkxODExOTY1"
+          + pages              : {
+              + custom404: false
+              + htmlUrl  : "http://cucumber.github.io/cucumber-js/"
+              + source   : {
+                  + branch: "gh-pages"
+                  + path  : "/"
+                }
+              + status   : "built"
+              + url      : "https://api.github.com/repos/cucumber/cucumber-js/pages"
+            }
+          + private            : false
+          + repoId             : 1.811965e+06
+          + sshCloneUrl        : "git@github.com:cucumber/cucumber-js.git"
+          + svnUrl             : "https://github.com/cucumber/cucumber-js"
+          + topics             : [
+          +     [0]: "javascript"
+          +     [1]: "typescript"
+          +     [2]: "cucumber"
+            ]
+          + urn                : "urn:pulumi:import::github-settings::github:index/repository:Repository::cucumber/cucumber-js"
+          + visibility         : "public"
+          + vulnerabilityAlerts: true
+        }
+    }
   + repositories: {
-      + aruba_cucumber_js                   : {
+      + aruba_cucumber_js            : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2445010:cucumber-js"
           + permission: "maintain"
@@ -97,31 +351,7 @@ Outputs:
           + teamId    : "2445010"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-js"
         }
-      + aruba_cucumber_ruby                 : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2445010:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2445010"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
-        }
-      + aruba_cucumber_ruby_core            : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2445010:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2445010"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-core"
-        }
-      + aruba_cucumber_ruby_meta            : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2445010:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2445010"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
-        }
-      + build_cucumber_js                   : {
+      + build_cucumber_js            : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "4797681:cucumber-js"
           + permission: "maintain"
@@ -129,31 +359,7 @@ Outputs:
           + teamId    : "4797681"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-js"
         }
-      + build_cucumber_ruby                 : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "4797681:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "4797681"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
-        }
-      + build_cucumber_ruby_core            : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "4797681:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "4797681"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
-        }
-      + build_cucumber_ruby_meta            : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "4797681:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "4797681"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
-        }
-      + committers_cucumber_js              : {
+      + committers_cucumber_js       : {
           + etag      : "W/\"dd1e5e002b37443c9c06017020b8cef72671cc978abdfbdb092c46619e6160ac\""
           + id        : "46059:cucumber-js"
           + permission: "push"
@@ -161,31 +367,7 @@ Outputs:
           + teamId    : "46059"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-js"
         }
-      + committers_cucumber_ruby            : {
-          + etag      : "W/\"16859b84e370f844fd55d83f8528765d6c8a034266981b0f6c3f8667d0e6a7fa\""
-          + id        : "46059:cucumber-ruby"
-          + permission: "push"
-          + repository: "cucumber-ruby"
-          + teamId    : "46059"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby"
-        }
-      + committers_cucumber_ruby_core       : {
-          + etag      : "W/\"e1eeec2f556114079c7740e4689ab3db02dc5210d6d2d3b224e8708027da6f1d\""
-          + id        : "46059:cucumber-ruby-core"
-          + permission: "push"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "46059"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
-        }
-      + committers_cucumber_ruby_meta       : {
-          + etag      : "W/\"d6a962c819f292af8d92c2cea33ad06937f1169e2bc30efd939ddaa6caefba60\""
-          + id        : "46059:cucumber-ruby-meta"
-          + permission: "pull"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "46059"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
-        }
-      + core_cucumber_js                    : {
+      + core_cucumber_js             : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2423254:cucumber-js"
           + permission: "maintain"
@@ -193,31 +375,7 @@ Outputs:
           + teamId    : "2423254"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-js"
         }
-      + core_cucumber_ruby                  : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2423254:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2423254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
-        }
-      + core_cucumber_ruby_core             : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2423254:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2423254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-core"
-        }
-      + core_cucumber_ruby_meta             : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2423254:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2423254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
-        }
-      + cucumber_android_cucumber_js        : {
+      + cucumber_android_cucumber_js : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2814891:cucumber-js"
           + permission: "maintain"
@@ -225,31 +383,7 @@ Outputs:
           + teamId    : "2814891"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-js"
         }
-      + cucumber_android_cucumber_ruby      : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2814891:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2814891"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby"
-        }
-      + cucumber_android_cucumber_ruby_core : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2814891:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2814891"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-core"
-        }
-      + cucumber_android_cucumber_ruby_meta : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2814891:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2814891"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
-        }
-      + cucumber_cpp_cucumber_js            : {
+      + cucumber_cpp_cucumber_js     : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2446646:cucumber-js"
           + permission: "maintain"
@@ -257,31 +391,7 @@ Outputs:
           + teamId    : "2446646"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-js"
         }
-      + cucumber_cpp_cucumber_ruby          : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2446646:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2446646"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
-        }
-      + cucumber_cpp_cucumber_ruby_core     : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2446646:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2446646"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
-        }
-      + cucumber_cpp_cucumber_ruby_meta     : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2446646:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2446646"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-meta"
-        }
-      + cucumber_eclipse_cucumber_js        : {
+      + cucumber_eclipse_cucumber_js : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "4964254:cucumber-js"
           + permission: "maintain"
@@ -289,31 +399,7 @@ Outputs:
           + teamId    : "4964254"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-js"
         }
-      + cucumber_eclipse_cucumber_ruby      : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "4964254:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "4964254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby"
-        }
-      + cucumber_eclipse_cucumber_ruby_core : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "4964254:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "4964254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-core"
-        }
-      + cucumber_eclipse_cucumber_ruby_meta : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "4964254:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "4964254"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
-        }
-      + cucumber_js_cucumber_js             : {
+      + cucumber_js_cucumber_js      : {
           + etag      : "W/\"ce367bdc5df9bf8fcd0342a8e23352c5b5dbe9847e4318ddc35732758acca7db\""
           + id        : "2445014:cucumber-js"
           + permission: "admin"
@@ -321,31 +407,7 @@ Outputs:
           + teamId    : "2445014"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-js"
         }
-      + cucumber_js_cucumber_ruby           : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2445014:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2445014"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby"
-        }
-      + cucumber_js_cucumber_ruby_core      : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2445014:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2445014"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
-        }
-      + cucumber_js_cucumber_ruby_meta      : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2445014:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2445014"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-meta"
-        }
-      + cucumber_jvm_cucumber_js            : {
+      + cucumber_jvm_cucumber_js     : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2372435:cucumber-js"
           + permission: "maintain"
@@ -353,31 +415,7 @@ Outputs:
           + teamId    : "2372435"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-js"
         }
-      + cucumber_jvm_cucumber_ruby          : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2372435:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2372435"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
-        }
-      + cucumber_jvm_cucumber_ruby_core     : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2372435:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2372435"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
-        }
-      + cucumber_jvm_cucumber_ruby_meta     : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2372435:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2372435"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
-        }
-      + cucumber_ml_cucumber_js             : {
+      + cucumber_ml_cucumber_js      : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2602947:cucumber-js"
           + permission: "maintain"
@@ -385,31 +423,7 @@ Outputs:
           + teamId    : "2602947"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-js"
         }
-      + cucumber_ml_cucumber_ruby           : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2602947:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2602947"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby"
-        }
-      + cucumber_ml_cucumber_ruby_core      : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2602947:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2602947"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
-        }
-      + cucumber_ml_cucumber_ruby_meta      : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2602947:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2602947"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
-        }
-      + cucumber_ruby_cucumber_js           : {
+      + cucumber_ruby_cucumber_js    : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "1970510:cucumber-js"
           + permission: "maintain"
@@ -417,47 +431,7 @@ Outputs:
           + teamId    : "1970510"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-js"
         }
-      + cucumber_ruby_cucumber_ruby         : {
-          + etag      : "W/\"58a92a8f22fe26f3fe974cfe108f5b4c8c9c8340764f84c33b3d3e35b6a42b05\""
-          + id        : "1970510:cucumber-ruby"
-          + permission: "admin"
-          + repository: "cucumber-ruby"
-          + teamId    : "1970510"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby"
-        }
-      + cucumber_ruby_cucumber_ruby_core    : {
-          + etag      : "W/\"eb015cffcf25dc0a3a5af9245ca6a08055b4f521497a6be7e2122a78704978f6\""
-          + id        : "1970510:cucumber-ruby-core"
-          + permission: "admin"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "1970510"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
-        }
-      + cucumber_ruby_cucumber_ruby_meta    : {
-          + etag      : "W/\"e16992d115ae90f92307139b45a495e2c190a782e2d9d0d09f70bba17b2930e5\""
-          + id        : "1970510:cucumber-ruby-meta"
-          + permission: "admin"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "1970510"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
-        }
-      + cucumber_ruby_cucumber_ruby_tcl     : {
-          + etag      : "W/\"62ca3a69c71ec279584ce3a4a06554332f8eb50614437b189f4fc740fc697ee4\""
-          + id        : "1970510:cucumber-ruby-tcl"
-          + permission: "admin"
-          + repository: "cucumber-ruby-tcl"
-          + teamId    : "1970510"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
-        }
-      + cucumber_ruby_cucumber_ruby_wire    : {
-          + etag      : "W/\"a0ad0d602d05ca11b250fa9b6a76ce7786b257a5c66a861b8f497431715a3504\""
-          + id        : "1970510:cucumber-ruby-wire"
-          + permission: "admin"
-          + repository: "cucumber-ruby-wire"
-          + teamId    : "1970510"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-wire"
-        }
-      + cucumber_ruby_tcl_cucumber_js       : {
+      + cucumber_ruby_tcl_cucumber_js: {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "1979610:cucumber-js"
           + permission: "maintain"
@@ -465,39 +439,7 @@ Outputs:
           + teamId    : "1979610"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-js"
         }
-      + cucumber_ruby_tcl_cucumber_ruby     : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "1979610:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "1979610"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
-        }
-      + cucumber_ruby_tcl_cucumber_ruby_core: {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "1979610:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "1979610"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
-        }
-      + cucumber_ruby_tcl_cucumber_ruby_meta: {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "1979610:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "1979610"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
-        }
-      + cucumber_ruby_tcl_cucumber_ruby_tcl : {
-          + etag      : "W/\"62ca3a69c71ec279584ce3a4a06554332f8eb50614437b189f4fc740fc697ee4\""
-          + id        : "1979610:cucumber-ruby-tcl"
-          + permission: "admin"
-          + repository: "cucumber-ruby-tcl"
-          + teamId    : "1979610"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-tcl"
-        }
-      + docs_cucumber_js                    : {
+      + docs_cucumber_js             : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "2082625:cucumber-js"
           + permission: "maintain"
@@ -505,31 +447,7 @@ Outputs:
           + teamId    : "2082625"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-js"
         }
-      + docs_cucumber_ruby                  : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "2082625:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "2082625"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
-        }
-      + docs_cucumber_ruby_core             : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "2082625:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "2082625"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby-core"
-        }
-      + docs_cucumber_ruby_meta             : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "2082625:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "2082625"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby-meta"
-        }
-      + gherkin_cucumber_js                 : {
+      + gherkin_cucumber_js          : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "1977884:cucumber-js"
           + permission: "maintain"
@@ -537,31 +455,7 @@ Outputs:
           + teamId    : "1977884"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-js"
         }
-      + gherkin_cucumber_ruby               : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "1977884:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "1977884"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby"
-        }
-      + gherkin_cucumber_ruby_core          : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "1977884:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "1977884"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
-        }
-      + gherkin_cucumber_ruby_meta          : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "1977884:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "1977884"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
-        }
-      + go_cucumber_js                      : {
+      + go_cucumber_js               : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "4815680:cucumber-js"
           + permission: "maintain"
@@ -569,61 +463,13 @@ Outputs:
           + teamId    : "4815680"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-js"
         }
-      + go_cucumber_ruby                    : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "4815680:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "4815680"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby"
-        }
-      + go_cucumber_ruby_core               : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "4815680:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "4815680"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
-        }
-      + go_cucumber_ruby_meta               : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "4815680:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "4815680"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
-        }
-      + release_cucumber_js                 : {
+      + release_cucumber_js          : {
           + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
           + id        : "5227827:cucumber-js"
           + permission: "maintain"
           + repository: "cucumber-js"
           + teamId    : "5227827"
           + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-js"
-        }
-      + release_cucumber_ruby               : {
-          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
-          + id        : "5227827:cucumber-ruby"
-          + permission: "maintain"
-          + repository: "cucumber-ruby"
-          + teamId    : "5227827"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby"
-        }
-      + release_cucumber_ruby_core          : {
-          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
-          + id        : "5227827:cucumber-ruby-core"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-core"
-          + teamId    : "5227827"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
-        }
-      + release_cucumber_ruby_meta          : {
-          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
-          + id        : "5227827:cucumber-ruby-meta"
-          + permission: "maintain"
-          + repository: "cucumber-ruby-meta"
-          + teamId    : "5227827"
-          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-meta"
         }
     }
   + teams       : {
@@ -837,6 +683,4 @@ Outputs:
         }
     }
 
-Resources:
-    84 unchanged
 

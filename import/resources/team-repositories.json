@@ -2,28 +2,8 @@
   "resources": [
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "aruba:cucumber-ruby",
-      "id": "2445010:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "aruba:cucumber-js",
       "id": "2445010:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "aruba:cucumber-ruby-core",
-      "id": "2445010:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "aruba:cucumber-ruby-meta",
-      "id": "2445010:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "build:cucumber-ruby",
-      "id": "4797681:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -32,38 +12,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "build:cucumber-ruby-core",
-      "id": "4797681:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "build:cucumber-ruby-meta",
-      "id": "4797681:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "committers:cucumber-ruby",
-      "id": "46059:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:cucumber-js",
       "id": "46059:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "committers:cucumber-ruby-core",
-      "id": "46059:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "committers:cucumber-ruby-meta",
-      "id": "46059:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "core:cucumber-ruby",
-      "id": "2423254:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -72,38 +22,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "core:cucumber-ruby-core",
-      "id": "2423254:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "core:cucumber-ruby-meta",
-      "id": "2423254:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-android:cucumber-ruby",
-      "id": "2814891:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-android:cucumber-js",
       "id": "2814891:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-android:cucumber-ruby-core",
-      "id": "2814891:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-android:cucumber-ruby-meta",
-      "id": "2814891:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-cpp:cucumber-ruby",
-      "id": "2446646:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -112,38 +32,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-cpp:cucumber-ruby-core",
-      "id": "2446646:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-cpp:cucumber-ruby-meta",
-      "id": "2446646:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-eclipse:cucumber-ruby",
-      "id": "4964254:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:cucumber-js",
       "id": "4964254:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-eclipse:cucumber-ruby-core",
-      "id": "4964254:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-eclipse:cucumber-ruby-meta",
-      "id": "4964254:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-js:cucumber-ruby",
-      "id": "2445014:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -152,38 +42,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-js:cucumber-ruby-core",
-      "id": "2445014:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-js:cucumber-ruby-meta",
-      "id": "2445014:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-jvm:cucumber-ruby",
-      "id": "2372435:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-jvm:cucumber-js",
       "id": "2372435:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-jvm:cucumber-ruby-core",
-      "id": "2372435:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-jvm:cucumber-ruby-meta",
-      "id": "2372435:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ml:cucumber-ruby",
-      "id": "2602947:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -192,48 +52,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ml:cucumber-ruby-core",
-      "id": "2602947:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ml:cucumber-ruby-meta",
-      "id": "2602947:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:cucumber-ruby",
-      "id": "1970510:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby:cucumber-js",
       "id": "1970510:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:cucumber-ruby-core",
-      "id": "1970510:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:cucumber-ruby-tcl",
-      "id": "1970510:cucumber-ruby-tcl"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:cucumber-ruby-wire",
-      "id": "1970510:cucumber-ruby-wire"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby:cucumber-ruby-meta",
-      "id": "1970510:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby-tcl:cucumber-ruby",
-      "id": "1979610:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -242,43 +62,8 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby-tcl:cucumber-ruby-core",
-      "id": "1979610:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby-tcl:cucumber-ruby-tcl",
-      "id": "1979610:cucumber-ruby-tcl"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "cucumber-ruby-tcl:cucumber-ruby-meta",
-      "id": "1979610:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "docs:cucumber-ruby",
-      "id": "2082625:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "docs:cucumber-js",
       "id": "2082625:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "docs:cucumber-ruby-core",
-      "id": "2082625:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "docs:cucumber-ruby-meta",
-      "id": "2082625:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "gherkin:cucumber-ruby",
-      "id": "1977884:cucumber-ruby"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -287,53 +72,13 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "gherkin:cucumber-ruby-core",
-      "id": "1977884:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "gherkin:cucumber-ruby-meta",
-      "id": "1977884:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "go:cucumber-ruby",
-      "id": "4815680:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "go:cucumber-js",
       "id": "4815680:cucumber-js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
-      "name": "go:cucumber-ruby-core",
-      "id": "4815680:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "go:cucumber-ruby-meta",
-      "id": "4815680:cucumber-ruby-meta"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "release:cucumber-ruby",
-      "id": "5227827:cucumber-ruby"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
       "name": "release:cucumber-js",
       "id": "5227827:cucumber-js"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "release:cucumber-ruby-core",
-      "id": "5227827:cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/teamRepository:TeamRepository",
-      "name": "release:cucumber-ruby-meta",
-      "id": "5227827:cucumber-ruby-meta"
     }
   ]
 }

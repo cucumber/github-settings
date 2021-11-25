@@ -2,33 +2,8 @@
   "resources": [
     {
       "type": "github:index/repository:Repository",
-      "name": "cucumber/cucumber-ruby",
-      "id": "cucumber-ruby"
-    },
-    {
-      "type": "github:index/repository:Repository",
       "name": "cucumber/cucumber-js",
       "id": "cucumber-js"
-    },
-    {
-      "type": "github:index/repository:Repository",
-      "name": "cucumber/cucumber-ruby-core",
-      "id": "cucumber-ruby-core"
-    },
-    {
-      "type": "github:index/repository:Repository",
-      "name": "cucumber/cucumber-ruby-tcl",
-      "id": "cucumber-ruby-tcl"
-    },
-    {
-      "type": "github:index/repository:Repository",
-      "name": "cucumber/cucumber-ruby-wire",
-      "id": "cucumber-ruby-wire"
-    },
-    {
-      "type": "github:index/repository:Repository",
-      "name": "cucumber/cucumber-ruby-meta",
-      "id": "cucumber-ruby-meta"
     }
   ]
 }
