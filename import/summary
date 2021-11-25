@@ -1,293 +1,40 @@
 Previewing update (import):
 
     pulumi:pulumi:Stack github-settings-import running 
-    github:index:Team gherkin  [diff: ~__defaults]
-    github:index:Team core  [diff: ~__defaults]
-    github:index:Team aruba  [diff: ~__defaults]
-    github:index:Team cucumber-android  [diff: ~__defaults]
-    github:index:Team cucumber-jvm  [diff: ~__defaults]
-    github:index:Team cucumber-ml  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-eclipse  [diff: ~__defaults]
     github:index:TeamRepository release:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ml:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-android  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-jvm  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-ml  [diff: ~__defaults]
+    github:index:Team release  [diff: ~__defaults]
+    github:index:Team go  [diff: ~__defaults]
     github:index:TeamRepository cucumber-jvm:cucumber-js  [diff: ~__defaults]
     github:index:TeamRepository gherkin:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository build:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-cpp:cucumber-js  [diff: ~__defaults]
-    github:index:Team release  [diff: ~__defaults]
-    github:index:Team cucumber-cpp  [diff: ~__defaults]
-    github:index:Team cucumber-js  [diff: ~__defaults]
-    github:index:Team cucumber-eclipse  [diff: ~__defaults]
-    github:index:TeamRepository committers:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository docs:cucumber-js  [diff: ~__defaults]
-    github:index:Team cucumber-ruby  [diff: ~__defaults]
-    github:index:Team docs  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-ruby-tcl:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository go:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-eclipse:cucumber-js  [diff: ~__defaults]
-    github:index:Team committers  [diff: ~__defaults]
     github:index:TeamRepository cucumber-android:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository cucumber-js:cucumber-js  [diff: ~__defaults]
-    github:index:TeamRepository core:cucumber-js  [diff: ~__defaults]
-    github:index:Team go  [diff: ~__defaults]
     github:index:Team build  [diff: ~__defaults]
-    github:index:Repository cucumber/cucumber-js  [diff: ~__defaults,pages]
-    github:index:Team cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:Team aruba  [diff: ~__defaults]
     github:index:TeamRepository aruba:cucumber-js  [diff: ~__defaults]
- -  github:index:TeamRepository release:cucumber-ruby-core delete 
- -  github:index:TeamRepository build:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete 
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete 
- -  github:index:TeamRepository aruba:cucumber-ruby delete 
- -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete 
- -  github:index:TeamRepository go:cucumber-ruby-meta delete 
- -  github:index:TeamRepository gherkin:cucumber-ruby-core delete 
- -  github:index:TeamRepository build:cucumber-ruby delete 
- -  github:index:TeamRepository committers:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete 
- -  github:index:TeamRepository core:cucumber-ruby delete 
- -  github:index:TeamRepository aruba:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
- -  github:index:TeamRepository release:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
- -  github:index:TeamRepository gherkin:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
- -  github:index:TeamRepository committers:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
- -  github:index:TeamRepository build:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
- -  github:index:TeamRepository build:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete 
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete 
- -  github:index:TeamRepository build:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
- -  github:index:TeamRepository go:cucumber-ruby-core delete 
- -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete 
- -  github:index:TeamRepository committers:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete 
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete 
- -  github:index:TeamRepository go:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
- -  github:index:TeamRepository docs:cucumber-ruby delete 
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
- -  github:index:TeamRepository aruba:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
- -  github:index:TeamRepository core:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete 
- -  github:index:TeamRepository core:cucumber-ruby-meta delete 
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
- -  github:index:TeamRepository aruba:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete 
- -  github:index:TeamRepository build:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
- -  github:index:TeamRepository go:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
- -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
- -  github:index:TeamRepository docs:cucumber-ruby delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
- -  github:index:TeamRepository core:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
- -  github:index:TeamRepository committers:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
- -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
-    pulumi:pulumi:Stack github-settings-import running error: preview failed
- -  github:index:TeamRepository build:cucumber-ruby delete 1 error
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository aruba:cucumber-ruby delete 1 error
- -  github:index:TeamRepository build:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository committers:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository release:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository core:cucumber-ruby delete 1 error
- -  github:index:TeamRepository cucumber-js:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl delete 1 error
- -  github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository docs:cucumber-ruby delete 1 error
- -  github:index:TeamRepository cucumber-ml:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository core:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository cucumber-cpp:cucumber-ruby delete 1 error
- -  github:index:TeamRepository cucumber-android:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository committers:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository gherkin:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository aruba:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby delete 1 error
- -  github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby delete 1 error
-    pulumi:pulumi:Stack github-settings-import  1 error
- -  github:index:TeamRepository go:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository build:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository cucumber-jvm:cucumber-ruby-core delete 1 error
- -  github:index:TeamRepository go:cucumber-ruby-meta delete 1 error
- -  github:index:TeamRepository gherkin:cucumber-ruby-core delete 1 error
- 
-Diagnostics:
-  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-tcl):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl'`
- 
-  github:index:TeamRepository (cucumber-js:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (cucumber-ml:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (cucumber-ml:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (docs:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby'`
- 
-  github:index:TeamRepository (core:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (gherkin:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (cucumber-cpp:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby'`
- 
-  github:index:TeamRepository (cucumber-android:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (committers:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (aruba:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta'`
- 
-  pulumi:pulumi:Stack (github-settings-import):
-    error: preview failed
- 
-  github:index:TeamRepository (cucumber-jvm:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby'`
- 
-  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby'`
- 
-  github:index:TeamRepository (cucumber-jvm:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (go:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (go:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (gherkin:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (build:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (cucumber-jvm:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (build:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby'`
- 
-  github:index:TeamRepository (cucumber-ruby:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (build:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (cucumber-ruby-tcl:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (aruba:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby'`
- 
-  github:index:TeamRepository (cucumber-cpp:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (committers:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (release:cucumber-ruby-core):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core'`
- 
-  github:index:TeamRepository (cucumber-eclipse:cucumber-ruby-meta):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta'`
- 
-  github:index:TeamRepository (core:cucumber-ruby):
-    error: Preview failed: unable to delete resource "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
-    as it is currently marked for protection. To unprotect the resource, either remove the `protect` flag from the resource in your Pulumiprogram and run `pulumi up` or use the command:
-    `pulumi state unprotect 'urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby'`
+    github:index:Team committers  [diff: ~__defaults]
+    github:index:Team gherkin  [diff: ~__defaults]
+    github:index:Team cucumber-cpp  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:Team cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-js  [diff: ~__defaults]
+    github:index:Team core  [diff: ~__defaults]
+    github:index:TeamRepository build:cucumber-js  [diff: ~__defaults]
+    github:index:Repository cucumber/cucumber-js  [diff: ~__defaults,pages,topics]
+    github:index:TeamRepository core:cucumber-js  [diff: ~__defaults]
+    github:index:Team docs  [diff: ~__defaults]
+    github:index:Team cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-js  [diff: ~__defaults]
+    pulumi:pulumi:Stack github-settings-import  
  
 Outputs:
   + repos       : {
@@ -683,4 +430,6 @@ Outputs:
         }
     }
 
+Resources:
+    34 unchanged
 
