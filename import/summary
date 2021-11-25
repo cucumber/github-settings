@@ -1,0 +1,842 @@
+Previewing update (import):
+
+    pulumi:pulumi:Stack github-settings-import running 
+    github:index:TeamRepository release:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository build:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository aruba:cucumber-ruby  [diff: ~__defaults]
+    github:index:Team aruba  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-ruby-wire  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-ruby  [diff: ~__defaults]
+    github:index:Team build  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository aruba:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team committers  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository release:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository release:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository gherkin:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository gherkin:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-jvm:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team core  [diff: ~__defaults]
+    github:index:TeamRepository gherkin:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-js  [diff: ~__defaults]
+    github:index:Team cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository gherkin:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository core:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-android:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository docs:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository build:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team gherkin  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby:cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ruby-tcl:cucumber-js  [diff: ~__defaults]
+    github:index:Team docs  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository core:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-ml:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository build:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-eclipse:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-jvm:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository core:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-android:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository aruba:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team go  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-jvm:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-cpp:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-js:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository core:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:TeamRepository aruba:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository committers:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team cucumber-ml  [diff: ~__defaults]
+    github:index:Team cucumber-eclipse  [diff: ~__defaults]
+    github:index:TeamRepository go:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-android:cucumber-ruby-core  [diff: ~__defaults]
+    github:index:Team cucumber-ruby-tcl  [diff: ~__defaults]
+    github:index:Team cucumber-android  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-jvm:cucumber-ruby  [diff: ~__defaults]
+    github:index:TeamRepository release:cucumber-js  [diff: ~__defaults]
+    github:index:TeamRepository cucumber-android:cucumber-ruby-meta  [diff: ~__defaults]
+    github:index:Team cucumber-jvm  [diff: ~__defaults]
+    github:index:TeamRepository build:cucumber-js  [diff: ~__defaults]
+    github:index:Team release  [diff: ~__defaults]
+    github:index:Team cucumber-cpp  [diff: ~__defaults]
+    pulumi:pulumi:Stack github-settings-import  
+ 
+Outputs:
+  + repos       : {}
+  + repositories: {
+      + aruba_cucumber_js                   : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2445010:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2445010"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-js"
+        }
+      + aruba_cucumber_ruby                 : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2445010:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2445010"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby"
+        }
+      + aruba_cucumber_ruby_core            : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2445010:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2445010"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-core"
+        }
+      + aruba_cucumber_ruby_meta            : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2445010:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2445010"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::aruba:cucumber-ruby-meta"
+        }
+      + build_cucumber_js                   : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "4797681:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "4797681"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-js"
+        }
+      + build_cucumber_ruby                 : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "4797681:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "4797681"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby"
+        }
+      + build_cucumber_ruby_core            : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "4797681:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "4797681"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-core"
+        }
+      + build_cucumber_ruby_meta            : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "4797681:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "4797681"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::build:cucumber-ruby-meta"
+        }
+      + committers_cucumber_js              : {
+          + etag      : "W/\"dd1e5e002b37443c9c06017020b8cef72671cc978abdfbdb092c46619e6160ac\""
+          + id        : "46059:cucumber-js"
+          + permission: "push"
+          + repository: "cucumber-js"
+          + teamId    : "46059"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-js"
+        }
+      + committers_cucumber_ruby            : {
+          + etag      : "W/\"16859b84e370f844fd55d83f8528765d6c8a034266981b0f6c3f8667d0e6a7fa\""
+          + id        : "46059:cucumber-ruby"
+          + permission: "push"
+          + repository: "cucumber-ruby"
+          + teamId    : "46059"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby"
+        }
+      + committers_cucumber_ruby_core       : {
+          + etag      : "W/\"e1eeec2f556114079c7740e4689ab3db02dc5210d6d2d3b224e8708027da6f1d\""
+          + id        : "46059:cucumber-ruby-core"
+          + permission: "push"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "46059"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-core"
+        }
+      + committers_cucumber_ruby_meta       : {
+          + etag      : "W/\"d6a962c819f292af8d92c2cea33ad06937f1169e2bc30efd939ddaa6caefba60\""
+          + id        : "46059:cucumber-ruby-meta"
+          + permission: "pull"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "46059"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::committers:cucumber-ruby-meta"
+        }
+      + core_cucumber_js                    : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2423254:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2423254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-js"
+        }
+      + core_cucumber_ruby                  : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2423254:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2423254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby"
+        }
+      + core_cucumber_ruby_core             : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2423254:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2423254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-core"
+        }
+      + core_cucumber_ruby_meta             : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2423254:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2423254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::core:cucumber-ruby-meta"
+        }
+      + cucumber_android_cucumber_js        : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2814891:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2814891"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-js"
+        }
+      + cucumber_android_cucumber_ruby      : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2814891:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2814891"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby"
+        }
+      + cucumber_android_cucumber_ruby_core : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2814891:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2814891"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-core"
+        }
+      + cucumber_android_cucumber_ruby_meta : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2814891:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2814891"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-android:cucumber-ruby-meta"
+        }
+      + cucumber_cpp_cucumber_js            : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2446646:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2446646"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-js"
+        }
+      + cucumber_cpp_cucumber_ruby          : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2446646:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2446646"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby"
+        }
+      + cucumber_cpp_cucumber_ruby_core     : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2446646:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2446646"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-core"
+        }
+      + cucumber_cpp_cucumber_ruby_meta     : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2446646:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2446646"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-cpp:cucumber-ruby-meta"
+        }
+      + cucumber_eclipse_cucumber_js        : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "4964254:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "4964254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-js"
+        }
+      + cucumber_eclipse_cucumber_ruby      : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "4964254:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "4964254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby"
+        }
+      + cucumber_eclipse_cucumber_ruby_core : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "4964254:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "4964254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-core"
+        }
+      + cucumber_eclipse_cucumber_ruby_meta : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "4964254:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "4964254"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-eclipse:cucumber-ruby-meta"
+        }
+      + cucumber_js_cucumber_js             : {
+          + etag      : "W/\"ce367bdc5df9bf8fcd0342a8e23352c5b5dbe9847e4318ddc35732758acca7db\""
+          + id        : "2445014:cucumber-js"
+          + permission: "admin"
+          + repository: "cucumber-js"
+          + teamId    : "2445014"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-js"
+        }
+      + cucumber_js_cucumber_ruby           : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2445014:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2445014"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby"
+        }
+      + cucumber_js_cucumber_ruby_core      : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2445014:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2445014"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-core"
+        }
+      + cucumber_js_cucumber_ruby_meta      : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2445014:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2445014"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-js:cucumber-ruby-meta"
+        }
+      + cucumber_jvm_cucumber_js            : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2372435:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2372435"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-js"
+        }
+      + cucumber_jvm_cucumber_ruby          : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2372435:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2372435"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby"
+        }
+      + cucumber_jvm_cucumber_ruby_core     : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2372435:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2372435"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-core"
+        }
+      + cucumber_jvm_cucumber_ruby_meta     : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2372435:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2372435"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-jvm:cucumber-ruby-meta"
+        }
+      + cucumber_ml_cucumber_js             : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2602947:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2602947"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-js"
+        }
+      + cucumber_ml_cucumber_ruby           : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2602947:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2602947"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby"
+        }
+      + cucumber_ml_cucumber_ruby_core      : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2602947:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2602947"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-core"
+        }
+      + cucumber_ml_cucumber_ruby_meta      : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2602947:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2602947"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ml:cucumber-ruby-meta"
+        }
+      + cucumber_ruby_cucumber_js           : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "1970510:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-js"
+        }
+      + cucumber_ruby_cucumber_ruby         : {
+          + etag      : "W/\"58a92a8f22fe26f3fe974cfe108f5b4c8c9c8340764f84c33b3d3e35b6a42b05\""
+          + id        : "1970510:cucumber-ruby"
+          + permission: "admin"
+          + repository: "cucumber-ruby"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby"
+        }
+      + cucumber_ruby_cucumber_ruby_core    : {
+          + etag      : "W/\"eb015cffcf25dc0a3a5af9245ca6a08055b4f521497a6be7e2122a78704978f6\""
+          + id        : "1970510:cucumber-ruby-core"
+          + permission: "admin"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-core"
+        }
+      + cucumber_ruby_cucumber_ruby_meta    : {
+          + etag      : "W/\"e16992d115ae90f92307139b45a495e2c190a782e2d9d0d09f70bba17b2930e5\""
+          + id        : "1970510:cucumber-ruby-meta"
+          + permission: "admin"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-meta"
+        }
+      + cucumber_ruby_cucumber_ruby_tcl     : {
+          + etag      : "W/\"62ca3a69c71ec279584ce3a4a06554332f8eb50614437b189f4fc740fc697ee4\""
+          + id        : "1970510:cucumber-ruby-tcl"
+          + permission: "admin"
+          + repository: "cucumber-ruby-tcl"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-tcl"
+        }
+      + cucumber_ruby_cucumber_ruby_wire    : {
+          + etag      : "W/\"a0ad0d602d05ca11b250fa9b6a76ce7786b257a5c66a861b8f497431715a3504\""
+          + id        : "1970510:cucumber-ruby-wire"
+          + permission: "admin"
+          + repository: "cucumber-ruby-wire"
+          + teamId    : "1970510"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby:cucumber-ruby-wire"
+        }
+      + cucumber_ruby_tcl_cucumber_js       : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "1979610:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "1979610"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-js"
+        }
+      + cucumber_ruby_tcl_cucumber_ruby     : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "1979610:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "1979610"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby"
+        }
+      + cucumber_ruby_tcl_cucumber_ruby_core: {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "1979610:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "1979610"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-core"
+        }
+      + cucumber_ruby_tcl_cucumber_ruby_meta: {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "1979610:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "1979610"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-meta"
+        }
+      + cucumber_ruby_tcl_cucumber_ruby_tcl : {
+          + etag      : "W/\"62ca3a69c71ec279584ce3a4a06554332f8eb50614437b189f4fc740fc697ee4\""
+          + id        : "1979610:cucumber-ruby-tcl"
+          + permission: "admin"
+          + repository: "cucumber-ruby-tcl"
+          + teamId    : "1979610"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::cucumber-ruby-tcl:cucumber-ruby-tcl"
+        }
+      + docs_cucumber_js                    : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "2082625:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "2082625"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-js"
+        }
+      + docs_cucumber_ruby                  : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "2082625:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "2082625"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby"
+        }
+      + docs_cucumber_ruby_core             : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "2082625:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "2082625"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby-core"
+        }
+      + docs_cucumber_ruby_meta             : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "2082625:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "2082625"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::docs:cucumber-ruby-meta"
+        }
+      + gherkin_cucumber_js                 : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "1977884:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "1977884"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-js"
+        }
+      + gherkin_cucumber_ruby               : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "1977884:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "1977884"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby"
+        }
+      + gherkin_cucumber_ruby_core          : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "1977884:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "1977884"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-core"
+        }
+      + gherkin_cucumber_ruby_meta          : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "1977884:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "1977884"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::gherkin:cucumber-ruby-meta"
+        }
+      + go_cucumber_js                      : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "4815680:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "4815680"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-js"
+        }
+      + go_cucumber_ruby                    : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "4815680:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "4815680"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby"
+        }
+      + go_cucumber_ruby_core               : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "4815680:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "4815680"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-core"
+        }
+      + go_cucumber_ruby_meta               : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "4815680:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "4815680"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::go:cucumber-ruby-meta"
+        }
+      + release_cucumber_js                 : {
+          + etag      : "W/\"0e937e0c2e37253540968529a0c59957beb5b09caf94c2065bb59e09af61b628\""
+          + id        : "5227827:cucumber-js"
+          + permission: "maintain"
+          + repository: "cucumber-js"
+          + teamId    : "5227827"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-js"
+        }
+      + release_cucumber_ruby               : {
+          + etag      : "W/\"c2f2e8a23e796c7fa518508bbee322d1119a953c1f40ccd7e0d0eba50e0c6caf\""
+          + id        : "5227827:cucumber-ruby"
+          + permission: "maintain"
+          + repository: "cucumber-ruby"
+          + teamId    : "5227827"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby"
+        }
+      + release_cucumber_ruby_core          : {
+          + etag      : "W/\"6c0bfb5ef0722bd25c2c6df1d64903bb76118cf4098b2803d0d8cdfb6710e30b\""
+          + id        : "5227827:cucumber-ruby-core"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-core"
+          + teamId    : "5227827"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-core"
+        }
+      + release_cucumber_ruby_meta          : {
+          + etag      : "W/\"f0c8d4cd357a710f5e217156d5baa288ac9a50c145b39048e9de98fb168f215d\""
+          + id        : "5227827:cucumber-ruby-meta"
+          + permission: "maintain"
+          + repository: "cucumber-ruby-meta"
+          + teamId    : "5227827"
+          + urn       : "urn:pulumi:import::github-settings::github:index/teamRepository:TeamRepository::release:cucumber-ruby-meta"
+        }
+    }
+  + teams       : {
+      + aruba            : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Aruba"
+          + etag                   : "W/\"8d8881f5fbd4d9448debb69308c5182563b17cf44645aa5a23673314f3a344d1\""
+          + id                     : "2445010"
+          + membersCount           : 2
+          + name                   : "aruba"
+          + nodeId                 : "MDQ6VGVhbTI0NDUwMTA="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "aruba"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::aruba"
+        }
+      + build            : {
+          + createDefaultMaintainer: output<string>
+          + description            : "People working on the build environment"
+          + etag                   : "W/\"fa09f98d7532cc8cf8308636d98fa5cf50cae44264a87818dad694a89b76cca8\""
+          + id                     : "4797681"
+          + membersCount           : 5
+          + name                   : "build"
+          + nodeId                 : "MDQ6VGVhbTQ3OTc2ODE="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "build"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::build"
+        }
+      + committers       : {
+          + createDefaultMaintainer: output<string>
+          + description            : "People who can push to most cucumber/* repositories"
+          + etag                   : "W/\"eb7c5ef9d4c57dd4bbb8c03d272300126562f5aa40efcf771d5a54b7f01117e2\""
+          + id                     : "46059"
+          + membersCount           : 285
+          + name                   : "committers"
+          + nodeId                 : "MDQ6VGVhbTQ2MDU5"
+          + parentTeamId           : output<string>
+          + privacy                : "closed"
+          + slug                   : "committers"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::committers"
+        }
+      + core             : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Define permissions shared by all core teams"
+          + etag                   : "W/\"5a4657511b7b302629a1c0b3dc060ee70f35dd1a81f99d17b833cb78d57d06fb\""
+          + id                     : "2423254"
+          + membersCount           : 38
+          + name                   : "core"
+          + nodeId                 : "MDQ6VGVhbTI0MjMyNTQ="
+          + parentTeamId           : 46059
+          + privacy                : "closed"
+          + slug                   : "core"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::core"
+        }
+      + cucumber_android : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core Team: Cucumber-Android"
+          + etag                   : "W/\"10118fd78a8006b63b0b699cf605ec7402bbeaa0c844a3e2318ec8bd1a3d6cf2\""
+          + id                     : "2814891"
+          + membersCount           : 1
+          + name                   : "cucumber-android"
+          + nodeId                 : "MDQ6VGVhbTI4MTQ4OTE="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-android"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-android"
+        }
+      + cucumber_cpp     : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber-CPP"
+          + etag                   : "W/\"08c51616582d6fd2f8416d34422ebfd58551e6026b65880fd7c43556e62b2c3b\""
+          + id                     : "2446646"
+          + membersCount           : 3
+          + name                   : "cucumber-cpp"
+          + nodeId                 : "MDQ6VGVhbTI0NDY2NDY="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-cpp"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-cpp"
+        }
+      + cucumber_eclipse : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Admins for cucumber-eclipse project"
+          + etag                   : "W/\"782873267245607a63b31f5c00f7420d5dc7707b67e2ba2f8710871e21b7005d\""
+          + id                     : "4964254"
+          + membersCount           : 2
+          + name                   : "cucumber-eclipse"
+          + nodeId                 : "T_kwDOAATkNc4AS7-e"
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-eclipse"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-eclipse"
+        }
+      + cucumber_js      : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber.js"
+          + etag                   : "W/\"d5d81863d4569d6197943b97bdd49bc70bcc704c275e09f56962e023b5010326\""
+          + id                     : "2445014"
+          + membersCount           : 5
+          + name                   : "cucumber-js"
+          + nodeId                 : "MDQ6VGVhbTI0NDUwMTQ="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-js"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-js"
+        }
+      + cucumber_jvm     : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber-JVM"
+          + etag                   : "W/\"9b1b9d438ca6f013bcf52c11d76a77677ef21261d1294173d48a8ec7cdf8f617\""
+          + id                     : "2372435"
+          + membersCount           : 4
+          + name                   : "cucumber-jvm"
+          + nodeId                 : "MDQ6VGVhbTIzNzI0MzU="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-jvm"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-jvm"
+        }
+      + cucumber_ml      : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber.ml"
+          + etag                   : "W/\"fa9218513aaa1a3bd95505a9572f1a8821b3f2b272861f33fdf3b7e7d16d1afe\""
+          + id                     : "2602947"
+          + membersCount           : 2
+          + name                   : "cucumber-ml"
+          + nodeId                 : "MDQ6VGVhbTI2MDI5NDc="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-ml"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-ml"
+        }
+      + cucumber_ruby    : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber-Ruby"
+          + etag                   : "W/\"c2efaa900cd6310b82b9f7e1a331d7577272b19c09bd81cf603a88a1db614474\""
+          + id                     : "1970510"
+          + membersCount           : 10
+          + name                   : "cucumber-ruby"
+          + nodeId                 : "MDQ6VGVhbTE5NzA1MTA="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-ruby"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-ruby"
+        }
+      + cucumber_ruby_tcl: {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Cucumber-Ruby TCL"
+          + etag                   : "W/\"11a2a261361e4ab7dbb8449055d89872cf44c7df703f8457d62af37d4c09d68c\""
+          + id                     : "1979610"
+          + membersCount           : 2
+          + name                   : "cucumber-ruby-tcl"
+          + nodeId                 : "MDQ6VGVhbTE5Nzk2MTA="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "cucumber-ruby-tcl"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::cucumber-ruby-tcl"
+        }
+      + docs             : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team for cucumber/docs repo"
+          + etag                   : "W/\"4482115c0e0a54e57145916d7fd2f7ea0247e3af935f9652f642a09c2036e992\""
+          + id                     : "2082625"
+          + membersCount           : 9
+          + name                   : "docs"
+          + nodeId                 : "MDQ6VGVhbTIwODI2MjU="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "docs"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::docs"
+        }
+      + gherkin          : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team: Gherkin"
+          + etag                   : "W/\"02958b1a68230278550506db016f665c3f6a4bd13b2ceb6976308aa3f0c5a94c\""
+          + id                     : "1977884"
+          + membersCount           : 7
+          + name                   : "gherkin"
+          + nodeId                 : "MDQ6VGVhbTE5Nzc4ODQ="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "gherkin"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::gherkin"
+        }
+      + go               : {
+          + createDefaultMaintainer: output<string>
+          + description            : "Core team for godog"
+          + etag                   : "W/\"738fa498d3c41f876a34268ff79bbcff9073cd6db3b7074ac51692ee1b069690\""
+          + id                     : "4815680"
+          + membersCount           : 4
+          + name                   : "go"
+          + nodeId                 : "MDQ6VGVhbTQ4MTU2ODA="
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "go"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::go"
+        }
+      + release          : {
+          + createDefaultMaintainer: output<string>
+          + description            : "People who can push to release/* branches"
+          + etag                   : "W/\"e42a87f0c2f09368e69afa0211f0af268917e7b0109798b1e14756202cb14cc2\""
+          + id                     : "5227827"
+          + membersCount           : 7
+          + name                   : "release"
+          + nodeId                 : "T_kwDOAATkNc4AT8Uz"
+          + parentTeamId           : 2.423254e+06
+          + privacy                : "closed"
+          + slug                   : "release"
+          + urn                    : "urn:pulumi:import::github-settings::github:index/team:Team::release"
+        }
+    }
+
+Resources:
+    84 unchanged
+
