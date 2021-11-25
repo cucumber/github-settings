@@ -1,0 +1,4 @@
+# This file contains a set of regular expression patterns for the names of
+# repos that will be managed using this system.
+cucumber/cucumber-ruby
+cucumber/cucumber-js$

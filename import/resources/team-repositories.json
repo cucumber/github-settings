@@ -197,6 +197,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "aruba:screenplay.js",
+      "id": "2445010:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "aruba:.github",
       "id": "2445010:.github"
     },
@@ -439,6 +444,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "build:build",
       "id": "4797681:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "build:screenplay.js",
+      "id": "4797681:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -717,6 +727,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "committers:screenplay.js",
+      "id": "46059:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "committers:.github",
       "id": "46059:.github"
     },
@@ -954,6 +969,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "core:build",
       "id": "2423254:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "core:screenplay.js",
+      "id": "2423254:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1207,6 +1227,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-android:screenplay.js",
+      "id": "2814891:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-android:.github",
       "id": "2814891:.github"
     },
@@ -1452,6 +1477,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-cpp:screenplay.js",
+      "id": "2446646:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-cpp:.github",
       "id": "2446646:.github"
     },
@@ -1694,6 +1724,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-eclipse:build",
       "id": "4964254:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-eclipse:screenplay.js",
+      "id": "4964254:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -1947,6 +1982,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-js:screenplay.js",
+      "id": "2445014:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-js:.github",
       "id": "2445014:.github"
     },
@@ -2192,6 +2232,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-jvm:screenplay.js",
+      "id": "2372435:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-jvm:.github",
       "id": "2372435:.github"
     },
@@ -2434,6 +2479,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ml:build",
       "id": "2602947:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ml:screenplay.js",
+      "id": "2602947:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -2692,6 +2742,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ruby:screenplay.js",
+      "id": "1970510:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby:.github",
       "id": "1970510:.github"
     },
@@ -2939,6 +2994,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "cucumber-ruby-tcl:build",
       "id": "1979610:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "cucumber-ruby-tcl:screenplay.js",
+      "id": "1979610:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3192,6 +3252,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "docs:screenplay.js",
+      "id": "2082625:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "docs:.github",
       "id": "2082625:.github"
     },
@@ -3434,6 +3499,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "gherkin:build",
       "id": "1977884:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "gherkin:screenplay.js",
+      "id": "1977884:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
@@ -3682,6 +3752,11 @@
     },
     {
       "type": "github:index/teamRepository:TeamRepository",
+      "name": "go:screenplay.js",
+      "id": "4815680:screenplay.js"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
       "name": "go:.github",
       "id": "4815680:.github"
     },
@@ -3924,6 +3999,11 @@
       "type": "github:index/teamRepository:TeamRepository",
       "name": "release:build",
       "id": "5227827:build"
+    },
+    {
+      "type": "github:index/teamRepository:TeamRepository",
+      "name": "release:screenplay.js",
+      "id": "5227827:screenplay.js"
     },
     {
       "type": "github:index/teamRepository:TeamRepository",

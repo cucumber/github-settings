@@ -274,6 +274,13 @@ export const aruba_build = new github.TeamRepository("aruba:build", {
 }, {
     protect: true,
 });
+export const aruba_screenplay_js = new github.TeamRepository("aruba:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2445010",
+}, {
+    protect: true,
+});
 export const aruba__github = new github.TeamRepository("aruba:.github", {
     permission: "push",
     repository: ".github",
@@ -613,6 +620,13 @@ export const build_todo_react_typescript_subsecond = new github.TeamRepository("
 export const build_build = new github.TeamRepository("build:build", {
     permission: "admin",
     repository: "build",
+    teamId: "4797681",
+}, {
+    protect: true,
+});
+export const build_screenplay_js = new github.TeamRepository("build:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "4797681",
 }, {
     protect: true,
@@ -1002,6 +1016,13 @@ export const committers_build = new github.TeamRepository("committers:build", {
 }, {
     protect: true,
 });
+export const committers_screenplay_js = new github.TeamRepository("committers:screenplay.js", {
+    permission: "push",
+    repository: "screenplay.js",
+    teamId: "46059",
+}, {
+    protect: true,
+});
 export const committers__github = new github.TeamRepository("committers:.github", {
     permission: "push",
     repository: ".github",
@@ -1334,6 +1355,13 @@ export const core_todo_react_typescript_subsecond = new github.TeamRepository("c
 export const core_build = new github.TeamRepository("core:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "2423254",
+}, {
+    protect: true,
+});
+export const core_screenplay_js = new github.TeamRepository("core:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "2423254",
 }, {
     protect: true,
@@ -1688,6 +1716,13 @@ export const cucumber_android_build = new github.TeamRepository("cucumber-androi
 }, {
     protect: true,
 });
+export const cucumber_android_screenplay_js = new github.TeamRepository("cucumber-android:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2814891",
+}, {
+    protect: true,
+});
 export const cucumber_android__github = new github.TeamRepository("cucumber-android:.github", {
     permission: "push",
     repository: ".github",
@@ -2031,6 +2066,13 @@ export const cucumber_cpp_build = new github.TeamRepository("cucumber-cpp:build"
 }, {
     protect: true,
 });
+export const cucumber_cpp_screenplay_js = new github.TeamRepository("cucumber-cpp:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2446646",
+}, {
+    protect: true,
+});
 export const cucumber_cpp__github = new github.TeamRepository("cucumber-cpp:.github", {
     permission: "push",
     repository: ".github",
@@ -2370,6 +2412,13 @@ export const cucumber_eclipse_todo_react_typescript_subsecond = new github.TeamR
 export const cucumber_eclipse_build = new github.TeamRepository("cucumber-eclipse:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "4964254",
+}, {
+    protect: true,
+});
+export const cucumber_eclipse_screenplay_js = new github.TeamRepository("cucumber-eclipse:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "4964254",
 }, {
     protect: true,
@@ -2724,6 +2773,13 @@ export const cucumber_js_cucumber_pretty_formatter = new github.TeamRepository("
 }, {
     protect: true,
 });
+export const cucumber_js_screenplay_js = new github.TeamRepository("cucumber-js:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2445014",
+}, {
+    protect: true,
+});
 export const cucumber_js__github = new github.TeamRepository("cucumber-js:.github", {
     permission: "push",
     repository: ".github",
@@ -3067,6 +3123,13 @@ export const cucumber_jvm_build = new github.TeamRepository("cucumber-jvm:build"
 }, {
     protect: true,
 });
+export const cucumber_jvm_screenplay_js = new github.TeamRepository("cucumber-jvm:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2372435",
+}, {
+    protect: true,
+});
 export const cucumber_jvm__github = new github.TeamRepository("cucumber-jvm:.github", {
     permission: "push",
     repository: ".github",
@@ -3406,6 +3469,13 @@ export const cucumber_ml_todo_react_typescript_subsecond = new github.TeamReposi
 export const cucumber_ml_build = new github.TeamRepository("cucumber-ml:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "2602947",
+}, {
+    protect: true,
+});
+export const cucumber_ml_screenplay_js = new github.TeamRepository("cucumber-ml:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "2602947",
 }, {
     protect: true,
@@ -3767,6 +3837,13 @@ export const cucumber_ruby_build = new github.TeamRepository("cucumber-ruby:buil
 }, {
     protect: true,
 });
+export const cucumber_ruby_screenplay_js = new github.TeamRepository("cucumber-ruby:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "1970510",
+}, {
+    protect: true,
+});
 export const cucumber_ruby__github = new github.TeamRepository("cucumber-ruby:.github", {
     permission: "push",
     repository: ".github",
@@ -4113,6 +4190,13 @@ export const cucumber_ruby_tcl_todo_react_typescript_subsecond = new github.Team
 export const cucumber_ruby_tcl_build = new github.TeamRepository("cucumber-ruby-tcl:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "1979610",
+}, {
+    protect: true,
+});
+export const cucumber_ruby_tcl_screenplay_js = new github.TeamRepository("cucumber-ruby-tcl:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "1979610",
 }, {
     protect: true,
@@ -4467,6 +4551,13 @@ export const docs_build = new github.TeamRepository("docs:build", {
 }, {
     protect: true,
 });
+export const docs_screenplay_js = new github.TeamRepository("docs:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "2082625",
+}, {
+    protect: true,
+});
 export const docs__github = new github.TeamRepository("docs:.github", {
     permission: "push",
     repository: ".github",
@@ -4806,6 +4897,13 @@ export const gherkin_todo_react_typescript_subsecond = new github.TeamRepository
 export const gherkin_build = new github.TeamRepository("gherkin:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "1977884",
+}, {
+    protect: true,
+});
+export const gherkin_screenplay_js = new github.TeamRepository("gherkin:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
     teamId: "1977884",
 }, {
     protect: true,
@@ -5153,6 +5251,13 @@ export const go_build = new github.TeamRepository("go:build", {
 }, {
     protect: true,
 });
+export const go_screenplay_js = new github.TeamRepository("go:screenplay.js", {
+    permission: "pull",
+    repository: "screenplay.js",
+    teamId: "4815680",
+}, {
+    protect: true,
+});
 export const go__github = new github.TeamRepository("go:.github", {
     permission: "push",
     repository: ".github",
@@ -5492,6 +5597,13 @@ export const release_todo_react_typescript_subsecond = new github.TeamRepository
 export const release_build = new github.TeamRepository("release:build", {
     permission: "maintain",
     repository: "build",
+    teamId: "5227827",
+}, {
+    protect: true,
+});
+export const release_screenplay_js = new github.TeamRepository("release:screenplay.js", {
+    permission: "maintain",
+    repository: "screenplay.js",
     teamId: "5227827",
 }, {
     protect: true,
