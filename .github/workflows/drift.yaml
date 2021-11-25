@@ -23,8 +23,8 @@ jobs:
         uses: pulumi/setup-pulumi@v2
       - run: |
           pulumi login --local
-          pulumi stack init import --non-interactive
-          pulumi stack select import
+          pulumi --cwd import stack init import --non-interactive
+          pulumi --cwd import stack select import
       - name: Refresh the import
         run: |
           make clean
