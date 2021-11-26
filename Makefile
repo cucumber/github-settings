@@ -19,13 +19,13 @@ import/src/team-repositories.ts: import/Pulumi.import.yaml import/resources/team
 	rm $@.tmp
 
 import/resources/repos.json:
-	npx ts-node src/getRepos.ts | jq > $@
+	npx ts-node src/getRepos.ts | jq '.' > $@
 
 import/resources/teams.json:
-	npx ts-node src/getTeams.ts | jq > $@
+	npx ts-node src/getTeams.ts | jq '.' > $@
 
 import/resources/team-repositories.json:
-	npx ts-node src/getTeamRepositories.ts | jq > $@
+	npx ts-node src/getTeamRepositories.ts | jq '.' > $@
 
 import/summary: import/src/repos.ts import/src/teams.ts import/src/team-repositories.ts
 	pulumi --cwd import preview > $@
