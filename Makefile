@@ -36,6 +36,7 @@ import/Pulumi.import.yaml:
 	pulumi stack select import
 
 clean:
+	rm -rf import/Pulumi.import.yaml
 	rm -rf import/resources/*.json
 	rm -rf import/src/*.ts
 	rm -rf import/summary.json
