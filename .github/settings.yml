@@ -1,4 +1,4 @@
 _extends: .github
 repository:
-  name: html-formatter
-  description: HTML formatter for reporting Cucumber results
+  name: github-settings
+  description: Pulumi scripts to automatically configure our GitHub org/repo settings
